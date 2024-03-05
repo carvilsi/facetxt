@@ -30,7 +30,11 @@
          "tongue-sticking-out-cheeky-playful-blowing-raspberry": [
            ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", 
            ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"
-         ]
+         ],
+         "skeptical-annoyed-undecided-uneasy-hesitant": [
+           ":-/", ":/", ":‑.", ">:\\", ">:/", ":\\", "=/", "=\\", ":L", "=L", ":S" 
+         ],
+         "straight-face-no-expression-indecision": [ ":‑|", ":|" ]
        }
     },
     "kaomoji-faces": {

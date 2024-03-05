@@ -42,7 +42,9 @@
 0	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 0	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
 0	src/textfaces.json	/^           ":-3", ":3", "=3", "x3", "X3"$/;"	s	array:western.sideways-latin-only-emoticons.cat-face-curled-mouth-cutesy-playful-mischievous
+0	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 0	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+0	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 0	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 0	src/textfaces.json	/^           "D‑':", "D:<", "D:", "D8", "D;", "D=", "DX"$/;"	s	array:western.sideways-latin-only-emoticons.horror-disgust-sadness-great-dismay
 0	src/textfaces.json	/^         "angry": [ ">:(", ">:[" ],$/;"	s	array:western.sideways-latin-only-emoticons.angry
@@ -50,6 +52,7 @@
 0	src/textfaces.json	/^         "kiss": [ ":-*", ":*", ":×" ],$/;"	s	array:western.sideways-latin-only-emoticons.kiss
 0	src/textfaces.json	/^         "laughing": [ "x‑D", "X‑D", "xD", "XD" ],$/;"	s	array:western.sideways-latin-only-emoticons.laughing
 0	src/textfaces.json	/^         "lion-smile-evil-cat": [ ">:3" ],$/;"	s	array:western.sideways-latin-only-emoticons.lion-smile-evil-cat
+0	src/textfaces.json	/^         "straight-face-no-expression-indecision": [ ":‑|", ":|" ]$/;"	s	array:western.sideways-latin-only-emoticons.straight-face-no-expression-indecision
 0	src/textfaces.json	/^         "tear-of-happinesis": [ ":'‑)", ":')", ":\\"D" ],$/;"	s	array:western.sideways-latin-only-emoticons.tear-of-happinesis
 0	src/textfaces.json	/^         "very-happy-or-double-chin": [ ":-))" ],$/;"	s	array:western.sideways-latin-only-emoticons.very-happy-or-double-chin
 0	src/textfaces.json	/^        "baby": [ "(';')" ]$/;"	s	array:kaomoji-faces.baby
@@ -57,26 +60,39 @@
 1	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 1	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
 1	src/textfaces.json	/^           ":-3", ":3", "=3", "x3", "X3"$/;"	s	array:western.sideways-latin-only-emoticons.cat-face-curled-mouth-cutesy-playful-mischievous
+1	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 1	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+1	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 1	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 1	src/textfaces.json	/^           "D‑':", "D:<", "D:", "D8", "D;", "D=", "DX"$/;"	s	array:western.sideways-latin-only-emoticons.horror-disgust-sadness-great-dismay
 1	src/textfaces.json	/^         "angry": [ ">:(", ">:[" ],$/;"	s	array:western.sideways-latin-only-emoticons.angry
 1	src/textfaces.json	/^         "crying": [ ":'‑(", ":'(", ":=(" ],$/;"	s	array:western.sideways-latin-only-emoticons.crying
 1	src/textfaces.json	/^         "kiss": [ ":-*", ":*", ":×" ],$/;"	s	array:western.sideways-latin-only-emoticons.kiss
 1	src/textfaces.json	/^         "laughing": [ "x‑D", "X‑D", "xD", "XD" ],$/;"	s	array:western.sideways-latin-only-emoticons.laughing
+1	src/textfaces.json	/^         "straight-face-no-expression-indecision": [ ":‑|", ":|" ]$/;"	s	array:western.sideways-latin-only-emoticons.straight-face-no-expression-indecision
 1	src/textfaces.json	/^         "tear-of-happinesis": [ ":'‑)", ":')", ":\\"D" ],$/;"	s	array:western.sideways-latin-only-emoticons.tear-of-happinesis
 1	src/textfaces.json	/^        "troubled": [ "(>_<)", "(>_<)>", "(>w<)" ], $/;"	s	array:kaomoji-faces.troubled
 10	src/textfaces.json	/^             ":o)", ":c)", ":^)", "=]", "=)"$/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
+10	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 10	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+10	src/textfaces.json	/^           ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"$/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 10	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 11	src/textfaces.json	/^             ":o)", ":c)", ":^)", "=]", "=)"$/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
+11	src/textfaces.json	/^           ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"$/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 12	src/textfaces.json	/^             ":o)", ":c)", ":^)", "=]", "=)"$/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
+12	src/textfaces.json	/^           ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"$/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 13	src/textfaces.json	/^             ":o)", ":c)", ":^)", "=]", "=)"$/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
+13	src/textfaces.json	/^           ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"$/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 14	src/textfaces.json	/^             ":o)", ":c)", ":^)", "=]", "=)"$/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
+14	src/textfaces.json	/^           ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"$/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
+15	src/textfaces.json	/^           ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"$/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
+16	src/textfaces.json	/^           ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"$/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 2	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 2	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
 2	src/textfaces.json	/^           ":-3", ":3", "=3", "x3", "X3"$/;"	s	array:western.sideways-latin-only-emoticons.cat-face-curled-mouth-cutesy-playful-mischievous
+2	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 2	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+2	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 2	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 2	src/textfaces.json	/^           "D‑':", "D:<", "D:", "D8", "D;", "D=", "DX"$/;"	s	array:western.sideways-latin-only-emoticons.horror-disgust-sadness-great-dismay
 2	src/textfaces.json	/^         "crying": [ ":'‑(", ":'(", ":=(" ],$/;"	s	array:western.sideways-latin-only-emoticons.crying
@@ -87,36 +103,50 @@
 3	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 3	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
 3	src/textfaces.json	/^           ":-3", ":3", "=3", "x3", "X3"$/;"	s	array:western.sideways-latin-only-emoticons.cat-face-curled-mouth-cutesy-playful-mischievous
+3	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 3	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+3	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 3	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 3	src/textfaces.json	/^           "D‑':", "D:<", "D:", "D8", "D;", "D=", "DX"$/;"	s	array:western.sideways-latin-only-emoticons.horror-disgust-sadness-great-dismay
 3	src/textfaces.json	/^         "laughing": [ "x‑D", "X‑D", "xD", "XD" ],$/;"	s	array:western.sideways-latin-only-emoticons.laughing
 4	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 4	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
 4	src/textfaces.json	/^           ":-3", ":3", "=3", "x3", "X3"$/;"	s	array:western.sideways-latin-only-emoticons.cat-face-curled-mouth-cutesy-playful-mischievous
+4	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 4	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+4	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 4	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 4	src/textfaces.json	/^           "D‑':", "D:<", "D:", "D8", "D;", "D=", "DX"$/;"	s	array:western.sideways-latin-only-emoticons.horror-disgust-sadness-great-dismay
 5	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 5	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
+5	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 5	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+5	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 5	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 5	src/textfaces.json	/^           "D‑':", "D:<", "D:", "D8", "D;", "D=", "DX"$/;"	s	array:western.sideways-latin-only-emoticons.horror-disgust-sadness-great-dismay
 6	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 6	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
+6	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 6	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+6	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 6	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 6	src/textfaces.json	/^           "D‑':", "D:<", "D:", "D8", "D;", "D=", "DX"$/;"	s	array:western.sideways-latin-only-emoticons.horror-disgust-sadness-great-dismay
 7	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 7	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
+7	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 7	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+7	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 7	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 8	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
 8	src/textfaces.json	/^             ":‑D", "8‑D", ":D", "8D", "=D", "=3", "c:", "C:", "B^D"$/;"	s	array:western.sideways-latin-only-emoticons.laughing-big-grin-grinning-with-glasses
+8	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 8	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+8	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 8	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 9	src/textfaces.json	/^             ":‑)", ":)", ":-]", ":]", ":->", ":>", "8-)", "8)", ":-}", ":}", $/;"	s	array:western.sideways-latin-only-emoticons.smiley-happy-face
+9	src/textfaces.json	/^           ":-\/", ":\/", ":‑.", ">:\\\\", ">:\/", ":\\\\", "=\/", "=\\\\", ":L", "=L", ":S" $/;"	s	array:western.sideways-latin-only-emoticons.skeptical-annoyed-undecided-uneasy-hesitant
 9	src/textfaces.json	/^           ":‑O", ":‑o", ":O", ":o", ":0", ":-0", "8‑0", ">:O", "=O", "=o", "=0"$/;"	s	array:western.sideways-latin-only-emoticons.surprise-shock
+9	src/textfaces.json	/^           ":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", $/;"	s	array:western.sideways-latin-only-emoticons.tongue-sticking-out-cheeky-playful-blowing-raspberry
 9	src/textfaces.json	/^           ";‑)", ";)", "*-)", "*)", ";‑]", ";]", ";^)", ";>", ":‑,", ";D", ";3"$/;"	s	array:western.sideways-latin-only-emoticons.wink-smirt
 angry	src/textfaces.json	/^         "angry": [ ">:(", ">:[" ],$/;"	a	object:western.sideways-latin-only-emoticons
 baby	src/textfaces.json	/^        "baby": [ "(';')" ]$/;"	a	object:kaomoji-faces
@@ -132,10 +162,13 @@ log	src/textfaces.js	/^const log = console.log;$/;"	C
 printAllFaces	src/textfaces.js	/^function printAllFaces(obj, stack) {$/;"	f
 printIt	src/textfaces.js	/^function printIt(el, level) {$/;"	f
 sideways-latin-only-emoticons	src/textfaces.json	/^       "sideways-latin-only-emoticons": { $/;"	o	object:western
+skeptical-annoyed-undecided-uneasy-hesitant	src/textfaces.json	/^         "skeptical-annoyed-undecided-uneasy-hesitant": [$/;"	a	object:western.sideways-latin-only-emoticons
 smiley-happy-face	src/textfaces.json	/^         "smiley-happy-face": [$/;"	a	object:western.sideways-latin-only-emoticons
+straight-face-no-expression-indecision	src/textfaces.json	/^         "straight-face-no-expression-indecision": [ ":‑|", ":|" ]$/;"	a	object:western.sideways-latin-only-emoticons
 surprise-shock	src/textfaces.json	/^         "surprise-shock": [$/;"	a	object:western.sideways-latin-only-emoticons
 tear-of-happinesis	src/textfaces.json	/^         "tear-of-happinesis": [ ":'‑)", ":')", ":\\"D" ],$/;"	a	object:western.sideways-latin-only-emoticons
 textFaces	src/textfaces.js	/^const textFaces = require('.\/textfaces.json');$/;"	C
+tongue-sticking-out-cheeky-playful-blowing-raspberry	src/textfaces.json	/^         "tongue-sticking-out-cheeky-playful-blowing-raspberry": [$/;"	a	object:western.sideways-latin-only-emoticons
 troubled	src/textfaces.json	/^        "troubled": [ "(>_<)", "(>_<)>", "(>w<)" ], $/;"	a	object:kaomoji-faces
 very-happy-or-double-chin	src/textfaces.json	/^         "very-happy-or-double-chin": [ ":-))" ],$/;"	a	object:western.sideways-latin-only-emoticons
 western	src/textfaces.json	/^    "western": {$/;"	o
