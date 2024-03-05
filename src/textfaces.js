@@ -1,11 +1,22 @@
 const textFaces = require('./textfaces.json');
+const log = console.log;
 
-for (let area in textFaces) {
-    console.log(`${area}:`);
-    for (let type in textFaces[area]) {
-        console.log(`\t${type} (${textFaces[area][type].length})`);
-        for (let i = 0; i < textFaces[area][type].length; i++) {
-            console.log(`\t\t${textFaces[area][type][i]}`);
-        }
-    }
+function printIt(el, level) {
+    log(`${"\t".repeat(level)}${el}`);
 }
+
+function printAllFaces(obj, stack) {
+   const level = stack.split(',').length - 1;
+   for (var property in obj) {
+       if(!Array.isArray(obj)) printIt(`${property}:`, level);
+       if (obj.hasOwnProperty(property)) {
+           if (typeof obj[property] === "object") {
+               printAllFaces(obj[property], stack + ',' + property);
+           } else {
+               printIt(obj[property], level);
+           }
+       }
+   }
+}
+
+printAllFaces(textFaces, '');
