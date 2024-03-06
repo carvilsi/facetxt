@@ -23,4 +23,27 @@ function printAllFaces(obj, stack) {
    }
 }
 
+function printRandomFace(obj) {
+    if (!Array.isArray(obj)) {
+        // count number of properties of object and get a random
+        // send it again here
+        printRandomFace(obj[Object.keys(obj)[rand(Object.keys(obj).length)]]);
+    } else if (typeof obj === 'object') {
+        if (obj.length === 1) {
+            log(obj[0]);
+        } else {
+            // print a random face from faces array
+            log(obj[rand(obj.length)]);
+        }
+    } else {
+        throw new Error('something is wrong with the face\'s json file');
+    }
+}
+
+// gives a "random" number between 0 and length (inclusive)
+function rand(length) {
+    return Math.floor(Math.random() *  length);
+}
+
 printAllFaces(textFaces, '');
+printRandomFace(textFaces);
