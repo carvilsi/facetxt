@@ -34,7 +34,8 @@
          "skeptical-annoyed-undecided-uneasy-hesitant": [
            ":-/", ":/", ":‑.", ">:\\", ">:/", ":\\", "=/", "=\\", ":L", "=L", ":S" 
          ],
-         "straight-face-no-expression-indecision": [ ":‑|", ":|" ]
+         "straight-face-no-expression-indecision": [ ":‑|", ":|" ],
+         "embarrassed-blushing": [ ":$", "://)", "://3" ]
        }
     },
     "kaomoji-faces": {
