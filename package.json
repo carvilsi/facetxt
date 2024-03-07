@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "npm run lint && c8 ava",
+    "test": "npm run lint && ./node_modules/c8/bin/c8.js ava",
     "coverage": "./node_modules/c8/bin/c8.js npm test",
     "lint": "./node_modules/eslint/bin/eslint.js src/ --ext .js",
     "lint-test": "./node_modules/eslint/bin/eslint.js tests/ --ext .js",
