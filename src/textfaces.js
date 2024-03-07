@@ -21,7 +21,7 @@ function prettyColletAllFaces(obj, stack) {
     for (const property in obj) {
         if (Object.prototype.hasOwnProperty.call(obj, property)) {
             if (!Array.isArray(obj)) {
-                printIt(`${property}:`, level);
+                printIt(`${property.replaceAll('_', ' ')}:`, level);
             }
 
             if (typeof obj[property] === 'object') {
