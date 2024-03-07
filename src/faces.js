@@ -37,7 +37,16 @@ export const canonical = {
                 ':-/', ':/', ':‑.', '>:\\', '>:/', ':\\', '=/', '=\\', ':L', '=L', ':S'
             ],
             straight_face_no_expression_indecision: [ ':‑|', ':|' ],
-            embarrassed_blushing: [ ':$', '://)', '://3' ]
+            embarrassed_blushing: [ ':$', '://)', '://3' ],
+            sealed_lips_wearing_braces_tongue_tied: [
+                ':‑X', ':X', ':‑#', ':#', ':‑&', ':&'
+            ],
+            angel_halo_saint_innocent: [
+                'O:‑)', 'O:)', '0:‑3', '0:3', '0:‑)', '0:)', '0;^)'
+            ],
+            evil_devilish: [
+                '>:‑)', '>:)', '}:‑)', '}:)', '3:‑)', '3:)', '>;‑)', '>;)', '>:3', '>;3'
+            ]
         }
     },
     kaomoji_faces: {
