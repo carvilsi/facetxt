@@ -12,8 +12,10 @@
     "lint-fix": "./node_modules/eslint/bin/eslint.js src/ --ext .js --fix",
     "lint-test-fix": "./node_modules/eslint/bin/eslint.js tests/ --ext .js --fix"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "textfaces"
+  ],
+  "author": "char@omg.lol",
   "license": "MIT",
   "devDependencies": {
     "ava": "^6.1.2",

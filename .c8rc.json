@@ -2,10 +2,7 @@
   "all": true,
   "exclude": [
     "node_modules",
-    "tests",
-    "bin",
-    "src/userQuestions.js",
-    "src/searchSnippet.js"
+    "tests"
   ],
   "include": ["src"]
 }
