@@ -1,0 +1,23 @@
+{
+  "name": "textfaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run lint && ./node_modules/c8/bin/c8.js ava",
+    "coverage": "./node_modules/c8/bin/c8.js npm test",
+    "lint": "./node_modules/eslint/bin/eslint.js src/ --ext .js",
+    "lint-test": "./node_modules/eslint/bin/eslint.js tests/ --ext .js",
+    "lint-fix": "./node_modules/eslint/bin/eslint.js src/ --ext .js --fix",
+    "lint-test-fix": "./node_modules/eslint/bin/eslint.js tests/ --ext .js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^6.1.2",
+    "c8": "^9.1.0",
+    "eslint": "^8.57.0"
+  }
+}

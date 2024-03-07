@@ -1,0 +1,24 @@
+name: tests 
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "main", "develop" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: nodejs
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+    - name: dependencies 
+      run: |
+        npm install
+    - name: tests  
+      run: npm test
