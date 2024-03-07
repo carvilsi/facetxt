@@ -25,7 +25,7 @@ function prettyColletAllFaces(obj, stack) {
             }
 
             if (typeof obj[property] === 'object') {
-                prettyColletAllFaces(obj[property], `${stack },${property}`);
+                prettyColletAllFaces(obj[property], `${stack},${property}`);
             }
         }
     }
