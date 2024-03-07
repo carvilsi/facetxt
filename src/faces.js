@@ -46,7 +46,17 @@ export const canonical = {
             ],
             evil_devilish: [
                 '>:‑)', '>:)', '}:‑)', '}:)', '3:‑)', '3:)', '>;‑)', '>;)', '>:3', '>;3'
-            ]
+            ],
+            cool_bored_yawning: [ '|;‑)', '|‑O', 'B-)' ],
+            tongue_in_cheek: [ ':-J' ],
+            partied_all_night: [ '#-)' ],
+            drunk_confused: [ '%‑)', '%)' ],
+            being_sick: [ ':‑###..', ':###..' ],
+            dumb_dunce_like: [ '<:‑|' ],
+            scepticism_disbelief_disapproval: [ '\',:-|', '\',:-l' ],
+            grimacing_nervous_awkward: [ ':E' ],
+            skull_and_crossbones: [ '8-X', '8=X', 'x-3', 'x=3' ],
+            chicken: [ '~:>' ]
         }
     },
     kaomoji_faces: {
