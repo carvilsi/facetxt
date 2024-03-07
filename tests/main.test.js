@@ -1,7 +1,12 @@
 /* eslint no-console: "off" */
 
 import test from 'ava';
-import { getArrayOfFaces, getRandomFace, prettyPrintFaces } from '../src/textfaces.js';
+import {
+    getArrayOfFaces,
+    getRandomFace,
+    prettyPrintFaces,
+    getFaceByName,
+} from '../src/textfaces.js';
 import { canonical } from '../src/faces.js';
 
 test('should retrieve array of faces and a random face', (t) => {
@@ -19,4 +24,10 @@ test('should retrieve string with all faces fo pretty print', (t) => {
     console.log(prettyString);
 
     t.assert(typeof prettyString === 'string');
+});
+
+test('should retrieve a random face by name', (t) => {
+    const face = getFaceByName(canonical, 'embarrassed');
+
+    t.true([ ':$', '://)', '://3' ].indexOf(face) >= 0);
 });

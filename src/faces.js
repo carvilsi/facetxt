@@ -1,44 +1,46 @@
+/* eslint camelcase: "off" */
+
 export const canonical = {
-    'western': {
-        'sideways-latin-only-emoticons': {
-            'smiley-happy-face': [
+    western: {
+        sideways_latin_only_emoticons: {
+            smiley_happy_face: [
                 ':‑)', ':)', ':-]', ':]', ':->', ':>', '8-)', '8)', ':-}', ':}',
                 ':o)', ':c)', ':^)', '=]', '=)'
             ],
-            'laughing-big-grin-grinning-with-glasses': [
+            laughing_big_grin_grinning_with_glasses: [
                 ':‑D', '8‑D', ':D', '8D', '=D', '=3', 'c:', 'C:', 'B^D'
             ],
-            'laughing': [ 'x‑D', 'X‑D', 'xD', 'XD' ],
-            'very-happy-or-double-chin': [ ':-))' ],
-            'crying': [ ':\'‑(', ':\'(', ':=(' ],
-            'tear-of-happinesis': [ ':\'‑)', ':\')', ':"D' ],
-            'angry': [ '>:(', '>:[' ],
-            'horror-disgust-sadness-great-dismay': [
+            laughing: [ 'x‑D', 'X‑D', 'xD', 'XD' ],
+            very_happy_or_double_chin: [ ':_))' ],
+            crying: [ ':\'‑(', ':\'(', ':=(' ],
+            tear_of_happinesis: [ ':\'‑)', ':\')', ':"D' ],
+            angry: [ '>:(', '>:[' ],
+            horror_disgust_sadness_great_dismay: [
                 'D‑\':', 'D:<', 'D:', 'D8', 'D;', 'D=', 'DX'
             ],
-            'surprise-shock': [
+            surprise_shock: [
                 ':‑O', ':‑o', ':O', ':o', ':0', ':-0', '8‑0', '>:O', '=O', '=o', '=0'
             ],
-            'cat-face-curled-mouth-cutesy-playful-mischievous': [
+            cat_face_curled_mouth_cutesy_playful_mischievous: [
                 ':-3', ':3', '=3', 'x3', 'X3'
             ],
-            'lion-smile-evil-cat': [ '>:3' ],
-            'kiss': [ ':-*', ':*', ':×' ],
-            'wink-smirt': [
+            lion_smile_evil_cat: [ '>:3' ],
+            kiss: [ ':-*', ':*', ':×' ],
+            wink_smirt: [
                 ';‑)', ';)', '*-)', '*)', ';‑]', ';]', ';^)', ';>', ':‑,', ';D', ';3'
             ],
-            'tongue-sticking-out-cheeky-playful-blowing-raspberry': [
+            tongue_sticking_out_cheeky_playful_blowing_raspberry: [
                 ':‑P', ':P', 'X‑P', 'XP', 'x‑p', 'xp', ':‑p', ':p', ':‑Þ', ':Þ',
                 ':‑þ', ':þ', ':‑b', ':b', 'd:', '=p', '>:P'
             ],
-            'skeptical-annoyed-undecided-uneasy-hesitant': [
+            skeptical_annoyed_undecided_uneasy_hesitant: [
                 ':-/', ':/', ':‑.', '>:\\', '>:/', ':\\', '=/', '=\\', ':L', '=L', ':S'
             ],
-            'straight-face-no-expression-indecision': [ ':‑|', ':|' ],
-            'embarrassed-blushing': [ ':$', '://)', '://3' ]
+            straight_face_no_expression_indecision: [ ':‑|', ':|' ],
+            embarrassed_blushing: [ ':$', '://)', '://3' ]
         }
     },
-    'kaomoji-faces': {
+    kaomoji_faces: {
         troubled: [ '(>_<)', '(>_<)>', '(>w<)' ],
         baby: [ '(\';\')' ]
     }
