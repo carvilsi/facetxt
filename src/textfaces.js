@@ -1,4 +1,4 @@
-const arrayOfFaces = [];
+let arrayOfFaces = [];
 let textFaces = '';
 let faceWithName = undefined;
 
@@ -32,6 +32,7 @@ function prettyColletAllFaces(obj, stack) {
 }
 
 export function prettyPrintFaces(obj) {
+    textFaces = '';
     prettyColletAllFaces(obj, '');
     return textFaces;
 }
@@ -51,6 +52,7 @@ function collectFacesToArray(obj) {
 }
 
 export function getArrayOfFaces(facesSource) {
+    arrayOfFaces = [];
     collectFacesToArray(facesSource, arrayOfFaces);
     return arrayOfFaces.flat(1);
 }
@@ -69,7 +71,7 @@ export function getRandomFace(obj) {
     }
 }
 
-function collectFaceByName(obj, name, stack) {
+function collectFaceByName(obj, name) {
     for (const property in obj) {
         if (Object.prototype.hasOwnProperty.call(obj, property)) {
             if (!Array.isArray(obj)) {
@@ -80,20 +82,21 @@ function collectFaceByName(obj, name, stack) {
                             obj[property][0] :
                             obj[property][random(obj[property].length)];
                     } else {
-                        collectFaceByName(obj[property], name, `${stack}.${property}`);
+                        collectFaceByName(obj[property], name);
                     }
                 }
             }
 
             if (typeof obj[property] === 'object') {
-                collectFaceByName(obj[property], name, `${stack}.${property}`);
+                collectFaceByName(obj[property], name);
             }
         }
     }
 }
 
 export function getFaceByName(obj, name) {
-    collectFaceByName(obj, name, '');
+    faceWithName = undefined;
+    collectFaceByName(obj, name);
     return faceWithName;
 }
 

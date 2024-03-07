@@ -31,3 +31,9 @@ test('should retrieve a random face by name', (t) => {
 
     t.true([ ':$', '://)', '://3' ].indexOf(face) >= 0);
 });
+
+test('should not retrieve a random face by name because does not exists', (t) => {
+    const face = getFaceByName(canonical, 'foz');
+
+    t.is(typeof face, 'undefined');
+});
