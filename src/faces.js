@@ -1,4 +1,4 @@
-{
+const canonical = {
     "western": {
        "sideways-latin-only-emoticons": { 
          "smiley-happy-face": [
@@ -42,6 +42,7 @@
         "troubled": [ "(>_<)", "(>_<)>", "(>w<)" ], 
         "baby": [ "(';')" ]
     }
-}
+};
 
+export canonical;
 
