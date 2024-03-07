@@ -32,7 +32,7 @@
           "setWithoutGet": true
       }],
       "block-scoped-var": 1,
-      "consistent-return": 2,
+      "consistent-return": 0,
       "curly": 2,
       "default-case": 1,
       // the dot goes with the property when doing multiline
