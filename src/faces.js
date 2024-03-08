@@ -57,6 +57,17 @@ const canonical = {
             grimacing_nervous_awkward: [ ':E' ],
             skull_and_crossbones: [ '8-X', '8=X', 'x-3', 'x=3' ],
             chicken: [ '~:>' ]
+        },
+        sideways_atin_only_single_line_art_and_portraits: {
+            rose: [ '@};-', '@}->--', '@}‑;‑\'‑‑‑', '@>‑‑>‑‑' ],
+            penis_ejaculation: [ '8====D', '8===D', '8=D', '3=D', '8=>', '8===D~~~' ],
+            elvis_presley: [ '5:‑)' ],
+            santa_claus: [ '*<|:‑)' ],
+            homer_simpson: [ '~(_8^(I)' ],
+            bill_clinton: [ '=:o]' ],
+            ronald_reagan: [ '7:^]', ',:‑)' ],
+            heart: [ '<3' ],
+            broken_heart: [ '</3', '<\\3' ]
         }
     },
     kaomoji_faces: {
