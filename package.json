@@ -11,7 +11,8 @@
     "lint": "./node_modules/eslint/bin/eslint.js src/ --ext .js",
     "lint-test": "./node_modules/eslint/bin/eslint.js tests/ --ext .js",
     "lint-fix": "./node_modules/eslint/bin/eslint.js src/ --ext .js --fix",
-    "lint-test-fix": "./node_modules/eslint/bin/eslint.js tests/ --ext .js --fix"
+    "lint-test-fix": "./node_modules/eslint/b",
+    "benchmark": "node benchmark/benchmark.js > benchmark/report.txt; cat benchmark/report.txt"
   },
   "keywords": [
     "textfaces"
@@ -21,6 +22,7 @@
   "devDependencies": {
     "ava": "^6.1.2",
     "c8": "^9.1.0",
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.0",
+    "tinybench": "^2.6.0"
   }
 }
