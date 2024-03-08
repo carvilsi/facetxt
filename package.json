@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
   "scripts": {
     "test": "npm run lint && ./node_modules/c8/bin/c8.js ava",
     "coverage": "./node_modules/c8/bin/c8.js npm test",
