@@ -4,7 +4,7 @@ import test from 'ava';
 import txtface from '../src/index.js';
 
 test('should retrieve an array of faces and a random face', (t) => {
-    const arrayOfFaces = txtface.all; 
+    const arrayOfFaces = txtface.all;
 
     t.true(arrayOfFaces.length > 0, 'the array of faces is empty');
 
