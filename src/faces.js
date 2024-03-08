@@ -1,6 +1,6 @@
 /* eslint camelcase: "off" */
 
-export const canonical = {
+const canonical = {
     western: {
         sideways_latin_only_emoticons: {
             smiley_happy_face: [
@@ -65,3 +65,12 @@ export const canonical = {
     }
 };
 
+const custom = {
+    myth: {
+        cthulhu: [ '^(;,;)^' ]
+    }
+};
+
+const faces = { ...canonical, ...custom };
+
+export default faces;
