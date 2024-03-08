@@ -4,7 +4,6 @@ let arrayOfFaces = [];
 let textFaces = '';
 let faceWithName = undefined;
 
-
 // Gives a "random" number between 0 and length (inclusive)
 function random(length) {
     return Math.floor(Math.random() * length);
@@ -86,12 +85,12 @@ function collectFaceByName(obj, name) {
 }
 
 const txtface = {
-    get all() {
+    get list() {
         textFaces = '';
         prettyColletAllFaces(faces, '');
         return textFaces;
     },
-    get array() {
+    get all() {
         arrayOfFaces = [];
         collectFacesToArray(faces);
         return arrayOfFaces.flat(1);
