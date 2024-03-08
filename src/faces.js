@@ -71,6 +71,6 @@ const custom = {
     }
 };
 
-const faces = {...canonical, ...custom};
+const faces = { ...canonical, ...custom };
 
 export default faces;
