@@ -68,6 +68,15 @@ const canonical = {
             ronald_reagan: [ '7:^]', ',:‑)' ],
             heart: [ '<3' ],
             broken_heart: [ '</3', '<\\3' ]
+        },
+        upright_latin_only_emoticons_and_single_line_art_and_portraits: {
+            fish_something_fishy_ichthys_fish: [ '><>', '<><', '<*)))‑{', '><(((*>' ],
+            cheer_yay_yay: [ '\\o/' ],
+            cheerleader: [ '*\\0/*' ],
+            salute: [ 'o7' ],
+            john_lennon: [ '//0‑0\\\\' ],
+            zoidberg: [ '(V) (;, ;) (V)', '(V)(°, °)(V)' ],
+            sadness_great_dismay_disgust: [ ';v.v', '._.', '._.;' ]
         }
     },
     kaomoji_faces: {
