@@ -90,6 +90,20 @@ const canonical = {
             three_TIE_fighters: [ '|-o-| [-o-] |-o-|' ],
             bandage: [ '(::[]::)' ],
             breasts: [ '(o)(o) ( • )( • ) (. Y .)' ]
+        },
+        upright_unicode_incorporating_emoticons_and_single_line_art: {
+            darwin_evolution_fish: [
+                'ӽd̲̅a̲̅r̲̅w̲̅i̲̅ɳ̲̅ᕗ', 'Ӽd̲̅a̲̅r̲̅w̲̅i̲̅ɳ̲̅ᕗ', 'ӽe̲̅v̲̅o̲̅l̲̅u̲̅t̲̅i̲̅o̲̅ɳ̲̅ᕗ', 'Ӽe̲̅v̲̅o̲̅l̲̅u̲̅t̲̅i̲̅o̲̅ɳ̲̅ᕗ'
+            ],
+            dollar_notes: [ '[̲̅$̲̅(̲̅1̲̅)̲̅$̲̅]', '[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]', '[̲̅$̲̅(̲̅1̲̅0̲̅)̲̅$̲̅]', '[̲̅$̲̅(̲̅ιοο̲̅)̲̅$̲̅]' ],
+            lenny_face: [ '( ͡° ͜ʖ ͡°)' ],
+            disapproval_look: [ 'ಠ_ಠ', 'ಠ__ಠ', 'ಠ益ಠ' ],
+            bat: [ '⎛⎝(•ⱅ•)⎠⎞', '◥▅◤', '◢▅◣' ],
+            kiss: [ '(๑ˇεˇ๑)s' ],
+            flower_girl: [ '(◕‿◕✿)' ],
+            crying: [ '(༎ຶ ۝ ༎ຶ )' ],
+            cat: [ '(=ʘᆽʘ=)', 'ฅ(^•ﻌ•^ฅ)' ],
+            bear: [ 'ʕ•ᴥ•ʔ', 'ʕ·(エ)·ʔ', 'ʕ– ㉨–ʔ', '⊂(￣(ｴ)￣)⊃' ]
         }
     },
     kaomoji_faces: {
