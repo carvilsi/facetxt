@@ -7,6 +7,7 @@ test('should retrieve an array of faces and a random face', (t) => {
     const arrayOfFaces = facetxt.all;
 
     t.true(arrayOfFaces.length > 0, 'the array of faces is empty');
+    t.is(arrayOfFaces.length, 186);
 
     const face = facetxt.rand;
 
@@ -32,5 +33,14 @@ test('should not retrieve a random face by name because does not exists', (t) =>
     t.is(typeof face, 'undefined');
 });
 
-test.todo('should retrieve the array related with name');
-// facetxt.likes('something');
+test('should retrieve the array related with name', (t) => {
+    const faces = facetxt.likes('embarrassed');
+
+    t.like(faces, [ ':$', '://)', '://3' ]);
+});
+
+test('should not retrieve the array related with name, because does not exists', (t) => {
+    const faces = facetxt.likes('foz');
+
+    t.true(faces.length === 0);
+});

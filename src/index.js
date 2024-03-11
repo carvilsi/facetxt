@@ -5,7 +5,7 @@ let textFaces = '';
 let faceWithName = undefined;
 
 // Gives a "random" number between 0 and length (inclusive)
-function random(length) {
+function randomInt(length) {
     return Math.floor(Math.random() * length);
 }
 
@@ -51,34 +51,38 @@ function getRandomFace(obj) {
     if (!Array.isArray(obj)) {
         // Count number of properties of obj and get a random
         // send it again here
-        return getRandomFace(obj[Object.keys(obj)[random(Object.keys(obj).length)]]);
+        return getRandomFace(
+            obj[Object.keys(obj)[randomInt(Object.keys(obj).length)]]);
     } else if (typeof obj === 'object') {
         if (obj.length === 1) {
             return obj[0];
         }
         // a random face from faces array
-        return obj[random(obj.length)];
+        return obj[randomInt(obj.length)];
     }
 }
 
-function collectFaceByName(obj, name) {
+function collectFaceByName(obj, name, returnArray) {
     for (const property in obj) {
         if (Object.prototype.hasOwnProperty.call(obj, property)) {
             if (!Array.isArray(obj)) {
                 const regexp = new RegExp(name, 'g');
                 if (property.match(regexp)?.length) {
                     if (Array.isArray(obj[property])) {
-                        faceWithName = obj[property].length === 1 ?
-                            obj[property][0] :
-                            obj[property][random(obj[property].length)];
+                        if (returnArray) {
+                            arrayOfFaces = obj[property];
+                        } else {
+                            faceWithName = obj[property].length === 1 ?
+                                obj[property][0] :
+                                obj[property][randomInt(obj[property].length)];
+                        }
                     } else {
-                        collectFaceByName(obj[property], name);
+                        collectFaceByName(obj[property], name, returnArray);
                     }
                 }
             }
-
             if (typeof obj[property] === 'object') {
-                collectFaceByName(obj[property], name);
+                collectFaceByName(obj[property], name, returnArray);
             }
         }
     }
@@ -102,6 +106,11 @@ const facetxt = {
         faceWithName = undefined;
         collectFaceByName(faces, name);
         return faceWithName;
+    },
+    likes(name) {
+        arrayOfFaces = [];
+        collectFaceByName(faces, name, true);
+        return arrayOfFaces;
     }
 };
 
