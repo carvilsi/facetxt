@@ -84,7 +84,7 @@ function collectFaceByName(obj, name) {
     }
 }
 
-const txtface = {
+const facetxt = {
     get list() {
         textFaces = '';
         prettyColletAllFaces(faces, '');
@@ -105,4 +105,4 @@ const txtface = {
     }
 };
 
-export default txtface;
+export default facetxt;
