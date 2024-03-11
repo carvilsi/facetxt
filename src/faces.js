@@ -76,7 +76,10 @@ const canonical = {
             salute: [ 'o7' ],
             john_lennon: [ '//0‑0\\\\' ],
             zoidberg: [ '(V) (;, ;) (V)', '(V)(°, °)(V)' ],
-            sadness_great_dismay_disgust: [ ';v.v', '._.', '._.;' ]
+            sadness_great_dismay_disgust: [ ';v.v', '._.', '._.;' ],
+            crying: [ 'QQ', 'qq', 'Qq' ],
+            dead_person_fainted: [ 'X_X', 'x_x', '+_+', 'X_x', 'x_X' ],
+            sideways_look_devious_or_guilty: [ '<_<', '>_>', '<.<', '>.>' ]
         }
     },
     kaomoji_faces: {
