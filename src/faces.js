@@ -79,7 +79,17 @@ const canonical = {
             sadness_great_dismay_disgust: [ ';v.v', '._.', '._.;' ],
             crying: [ 'QQ', 'qq', 'Qq' ],
             dead_person_fainted: [ 'X_X', 'x_x', '+_+', 'X_x', 'x_X' ],
-            sideways_look_devious_or_guilty: [ '<_<', '>_>', '<.<', '>.>' ]
+            sideways_look_devious_or_guilty: [ '<_<', '>_>', '<.<', '>.>' ],
+            surprise_shock_yawn: [
+                'O_O', 'o_o', 'O-O', 'o‑o', 'O_o', 'o_O'
+            ],
+            skeptical_annoyed_undecided_uneasy_hesitant: [ '>.<', '>_<' ],
+            high_five: [ '^5', 'o/\\o', '>_>^ ^<_<' ],
+            crab_lobster: [ 'V.v.V', 'V=(° °)=V' ],
+            shark: [ '(^^^)' ],
+            three_TIE_fighters: [ '|-o-| [-o-] |-o-|' ],
+            bandage: [ '(::[]::)' ],
+            breasts: [ '(o)(o) ( • )( • ) (. Y .)' ]
         }
     },
     kaomoji_faces: {

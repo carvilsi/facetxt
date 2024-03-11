@@ -7,7 +7,7 @@ test('should retrieve an array of faces and a random face', (t) => {
     const arrayOfFaces = facetxt.all;
 
     t.true(arrayOfFaces.length > 0, 'the array of faces is empty');
-    t.is(arrayOfFaces.length, 198);
+    t.is(arrayOfFaces.length, 215);
 
     const face = facetxt.rand;
 
