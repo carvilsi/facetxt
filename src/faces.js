@@ -109,11 +109,11 @@ const canonical = {
     kaomoji_faces: {
         troubled: [ '(>_<)', '(>_<)>', '(>w<)' ],
         baby: [ '(\';\')' ],
-        nervous_shy_sweat_drop: [
+        nervous_embarrassed_troubled_shy_sweat_drop: [
             '(^^ゞ', '(^_^;)', '(-_-;)', '(~_~;)', '(・.・;)', '(・_・;)',
             '(・・;)', '^^;', '^_^;', '(#^.^#)', '(^ ^;)'
         ],
-        flushed: [ '(⁄⁄•⁄ω⁄•⁄⁄)' ],
+        embarrassed_flushed: [ '(⁄⁄•⁄ω⁄•⁄⁄)' ],
         smoking: [ '(^.^)y-.o○', '(-.-)y-°°°' ],
         sleeping: [ '(-_-)zzz' ],
         wink: [ '(^_-)', '(^_-)-☆' ],
@@ -129,7 +129,17 @@ const canonical = {
             '(__)', '_(._.)_', '_(_^_)_', '<(_ _)>', '<m(__)m>', 'm(__)m', 'm(_ _)m'
         ],
         middle_fingers: [ '(凸ಠ益ಠ)凸' ],
-        questioning: [ '＼(°ロ＼)', '(／ロ°)／' ]
+        questioning: [ '＼(°ロ＼)', '(／ロ°)／' ],
+        sad_crying: [ 
+            '(\'_\')', '(/_;)', '(T_T)', '(;_;)', '(;_;', '(;_:)', '(;O;)', '(:_;)',
+            '(ToT)', '(Ｔ▽Ｔ)', ';_;', ';-;', ';n;', ';;', 'Q.Q', 'T.T', 'TnT', 'QQ', 
+            'Q_Q'
+        ],
+        shame: [ '(ー_ー)!!', '(-.-)', '(-_-)', '(一一)', '(；一_一)' ],
+        tired: [ '(=_=)' ],
+        cat: [ '(=^・^=)', '(=^・・^=)', '=^_^=' ],
+        looking_down_sadness_boredom: [ '(..)', '(._.)' ],
+        giggling_with_hand_covering_mouth: [ '^m^' ]
     }
 };
 
