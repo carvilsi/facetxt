@@ -2,7 +2,6 @@ import faces from './faces.js';
 
 let arrayOfFaces = [];
 let textFaces = '';
-let faceWithName = undefined;
 
 // Gives a "random" number between 0 and length (inclusive)
 function randomInt(length) {
@@ -62,27 +61,21 @@ function getRandomFace(obj) {
     }
 }
 
-function collectFaceByName(obj, name, returnArray) {
+function collectFaceByName(obj, name) {
     for (const property in obj) {
         if (Object.prototype.hasOwnProperty.call(obj, property)) {
             if (!Array.isArray(obj)) {
                 const regexp = new RegExp(name, 'g');
                 if (property.match(regexp)?.length) {
                     if (Array.isArray(obj[property])) {
-                        if (returnArray) {
-                            arrayOfFaces = obj[property];
-                        } else {
-                            faceWithName = obj[property].length === 1 ?
-                                obj[property][0] :
-                                obj[property][randomInt(obj[property].length)];
-                        }
+                        arrayOfFaces.push(obj[property]);
                     } else {
-                        collectFaceByName(obj[property], name, returnArray);
+                        collectFaceByName(obj[property], name);
                     }
                 }
             }
             if (typeof obj[property] === 'object') {
-                collectFaceByName(obj[property], name, returnArray);
+                collectFaceByName(obj[property], name);
             }
         }
     }
@@ -103,14 +96,15 @@ const facetxt = {
         return getRandomFace(faces);
     },
     like(name) {
-        faceWithName = undefined;
+        arrayOfFaces = [];
         collectFaceByName(faces, name);
-        return faceWithName;
+        const arr = arrayOfFaces.flat(1);
+        return arr[randomInt(arr.length)];
     },
     likes(name) {
         arrayOfFaces = [];
-        collectFaceByName(faces, name, true);
-        return arrayOfFaces;
+        collectFaceByName(faces, name);
+        return arrayOfFaces.flat(1);
     }
 };
 

@@ -130,16 +130,17 @@ const canonical = {
         ],
         middle_fingers: [ '(凸ಠ益ಠ)凸' ],
         questioning: [ '＼(°ロ＼)', '(／ロ°)／' ],
-        sad_crying: [ 
+        sad_crying: [
             '(\'_\')', '(/_;)', '(T_T)', '(;_;)', '(;_;', '(;_:)', '(;O;)', '(:_;)',
-            '(ToT)', '(Ｔ▽Ｔ)', ';_;', ';-;', ';n;', ';;', 'Q.Q', 'T.T', 'TnT', 'QQ', 
+            '(ToT)', '(Ｔ▽Ｔ)', ';_;', ';-;', ';n;', ';;', 'Q.Q', 'T.T', 'TnT', 'QQ',
             'Q_Q'
         ],
         shame: [ '(ー_ー)!!', '(-.-)', '(-_-)', '(一一)', '(；一_一)' ],
         tired: [ '(=_=)' ],
         cat: [ '(=^・^=)', '(=^・・^=)', '=^_^=' ],
         looking_down_sadness_boredom: [ '(..)', '(._.)' ],
-        giggling_with_hand_covering_mouth: [ '^m^' ]
+        giggling_with_hand_covering_mouth: [ '^m^' ],
+        confusion: [ '(・・?', '(?_?)' ]
     }
 };
 
