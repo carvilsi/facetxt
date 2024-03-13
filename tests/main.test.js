@@ -3,7 +3,7 @@
 import test from 'ava';
 import facetxt from '../src/index.js';
 
-const TOTAL_FACES = 320;
+const TOTAL_FACES = 342;
 const WHOLE_EMBARRASSED_FACES = [
       ':$',          '://)',
       '://3',        '(^^ゞ',

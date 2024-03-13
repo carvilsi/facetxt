@@ -140,13 +140,21 @@ const canonical = {
         cat: [ '(=^・^=)', '(=^・・^=)', '=^_^=' ],
         looking_down_sadness_boredom: [ '(..)', '(._.)' ],
         giggling_with_hand_covering_mouth: [ '^m^' ],
-        confusion: [ '(・・?', '(?_?)' ]
+        confusion: [ '(・・?', '(?_?)' ],
+        facepalm: [ '(－‸ლ)' ],
+        laugh: [
+            '>^_^<', '<^!^>', '^/^', '（*^_^*）', '§^.^§', '(^<^)', ' (^.^)', '(^ム^)',
+            '(^·^)', '(^.^)', '(^_^.)', '(^_^)', '(^^)', ' (^J^)', '(*^.^*)', '^_^',
+            '(#^.^#)', '（^—^）'
+        ]
     }
 };
 
 const custom = {
     myth: {
-        cthulhu: [ '^(;,;)^' ]
+        cthulhu: [ '^(;,;)^' ],
+        facepalm: [ '(P,\')', '(p,\')' ],
+        horns_heavy: [ '\\m/,' ]
     }
 };
 
