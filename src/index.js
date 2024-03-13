@@ -99,7 +99,7 @@ const facetxt = {
         arrayOfFaces = [];
         collectFaceByName(faces, name);
         const arr = arrayOfFaces.flat(1);
-        return arr[randomInt(arr.length)];
+        return arr.length === 1 ? arr[0] : arr[randomInt(arr.length)];
     },
     likes(name) {
         arrayOfFaces = [];
