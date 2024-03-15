@@ -11,8 +11,8 @@
     "lint": "./node_modules/eslint/bin/eslint.js src/ --ext .js",
     "lint-test": "./node_modules/eslint/bin/eslint.js tests/ --ext .js",
     "lint-fix": "./node_modules/eslint/bin/eslint.js src/ --ext .js --fix",
-    "lint-test-fix": "./node_modules/eslint/b",
-    "benchmark": "node benchmark/benchmark.js > benchmark/report.txt; cat benchmark/report.txt"
+    "lint-test-fix": "./node_modules/eslint/bin/eslint.js tests/ --ext .js --fix",
+    "benchmark": "node ./benchmark/benchmark.js > ./benchmark/report.txt && cat ./benchmark/report.txt"
   },
   "keywords": [
     "textfaces"

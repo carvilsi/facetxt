@@ -70,6 +70,7 @@
       "no-new-wrappers": 2,
       "no-new": 2,
       "no-octal-escape": 2,
+      "no-useless-escape": 2,
       "no-param-reassign": 2,
       "no-process-env": 1,
       "no-proto": 2,

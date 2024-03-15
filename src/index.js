@@ -53,10 +53,6 @@ function getRandomFace(obj) {
         return getRandomFace(
             obj[Object.keys(obj)[randomInt(Object.keys(obj).length)]]);
     } else if (typeof obj === 'object') {
-        if (obj.length === 1) {
-            return obj[0];
-        }
-        // a random face from faces array
         return obj[randomInt(obj.length)];
     }
 }
@@ -69,8 +65,6 @@ function collectFaceByName(obj, name) {
                 if (property.match(regexp)?.length) {
                     if (Array.isArray(obj[property])) {
                         arrayOfFaces.push(obj[property]);
-                    } else {
-                        collectFaceByName(obj[property], name);
                     }
                 }
             }
@@ -99,7 +93,7 @@ const facetxt = {
         arrayOfFaces = [];
         collectFaceByName(faces, name);
         const arr = arrayOfFaces.flat(1);
-        return arr.length === 1 ? arr[0] : arr[randomInt(arr.length)];
+        return arr[randomInt(arr.length)];
     },
     likes(name) {
         arrayOfFaces = [];

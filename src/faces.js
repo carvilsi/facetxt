@@ -177,7 +177,24 @@ const canonical = {
             '(●＾o＾●)', '(＾ｖ＾)', '(＾ｕ＾)', '(＾◇＾)', '( ^)o(^ )', '(^O^)',
             '(^o^)', '(^○^)', ')^o^( (*^▽^*)', '(✿◠‿◠)'
         ],
-        grinning: [ '(￣ー￣)' ]
+        grinning: [ '(￣ー￣)' ],
+        surprised: [
+            '(￣□￣;)', '°o°', '°O°', ':O', 'o_O', 'o_0', 'o.O', '(o.o)', 'oO'
+        ],
+        infatuation: [ '(*´▽｀*)', '(*°∀°)=3' ],
+        dancing_swinging_arms_back_and_forth_happy_gary: [ 'ᕕ( ᐛ )ᕗ' ],
+        shocked_surprised: [ '（ ﾟ Дﾟ)', '(°◇°)' ],
+        dissatisfied: [ '(*￣m￣)' ],
+        mellow_shrug: [ 'ヽ(´ー｀)┌', '¯\\_(ツ)_/¯', '¯\\(°_o)/¯' ],
+        snubbed_deflated: [ '(´･ω･`)', '(‘A`)' ],
+        hugging_reaching_kissing: [ '(づ￣ ³￣)づ' ],
+        blowing_kiss: [ '(*^3^)/~☆' ],
+        studying: [ '.....φ(・∀・＊)' ],
+        sleep: [ '(-_-)', 'zzz(︶｡︶✽)' ],
+        joy_cute: [ 'uwu', 'UwU' ],
+        cute_inquisitive_perplexed_furry_fandom: [ 'OWO', 'OwO' ],
+        distress_jiong_patterned_window: [ '囧' ],
+        porter_robinson: [ '【=◈︿◈=】' ]
     }
 };
 

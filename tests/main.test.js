@@ -3,16 +3,16 @@
 import test from 'ava';
 import facetxt from '../src/index.js';
 
-const TOTAL_FACES = 408;
+const TOTAL_FACES = 439;
 const WHOLE_EMBARRASSED_FACES = [
-      ':$',          '://)',
-      '://3',        '(^^ゞ',
-      '(^_^;)',      '(-_-;)',
-      '(~_~;)',      '(・.・;)',
-      '(・_・;)',    '(・・;)',
-      '^^;',         '^_^;',
-      '(#^.^#)',     '(^ ^;)',
-      '(⁄⁄•⁄ω⁄•⁄⁄)'
+    ':$', '://)',
+    '://3', '(^^ゞ',
+    '(^_^;)', '(-_-;)',
+    '(~_~;)', '(・.・;)',
+    '(・_・;)', '(・・;)',
+    '^^;', '^_^;',
+    '(#^.^#)', '(^ ^;)',
+    '(⁄⁄•⁄ω⁄•⁄⁄)'
 ];
 
 test('should retrieve an array of faces and a random face', (t) => {
