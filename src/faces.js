@@ -195,6 +195,24 @@ const canonical = {
         cute_inquisitive_perplexed_furry_fandom: [ 'OWO', 'OwO' ],
         distress_jiong_patterned_window: [ '囧' ],
         porter_robinson: [ '【=◈︿◈=】' ]
+    },
+    other_eastern_emoticons: {
+        bubbles: [ '.o○', '○o.' ],
+        cup_tea: [ '( ^^)', '_U~~', '( ^^)', '_旦~~' ],
+        shooting_star: [ '☆彡', '☆ミ' ],
+        fish: [
+            '>°)))彡', '(Q   ))', '><ヨヨ (°))<<', '>°))))彡', '<°)))彡', '>°))彡',
+            ' <+', '))><<', '<*))', '>=<'
+        ],
+        squid_octopus: [ '<コ:彡', 'Ｃ:.ミ' ],
+        snake: [ '~>°)～～～' ],
+        bat: [ '～°·_·°～' ],
+        tadpole: [ '(°°)～' ],
+        bomb: [ '●～*' ],
+        despair: [ '￣|○', 'STO', 'OTZ', 'OTL', 'orz', '囧rz' ],
+        table_flip: [ '(╯°□°）╯︵', '┻━┻┬──┬ ¯\\_(ツ)', '┻━┻︵ヽ(`Д´)ﾉ︵ ',
+            '┻━┻┬─┬ノ( º _ ºノ)', '(ノಠ益ಠ)ノ彡┻━┻'
+        ]
     }
 };
 
@@ -203,7 +221,8 @@ const custom = {
         cthulhu: [ '^(;,;)^' ],
         facepalm: [ '(P,\')', '(p,\')' ],
         horns_heavy: [ '\\m/,' ],
-        question: [ '(p_-)', '(-_q)' ]
+        question: [ '(p_-)', '(-_q)' ],
+        star: [ '☆' ]
     }
 };
 
