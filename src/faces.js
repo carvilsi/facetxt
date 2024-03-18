@@ -230,11 +230,92 @@ const canonical = {
             carefree: [ '（´∀｀）' ],
             indifferent: [ '（　´_ゝ`）' ],
             shocked: [ 'Σ(゜д゜;)' ],
-            happy_upbeat: [ '( ﾟヮﾟ)' ],
+            happy_upbeat: [ '( ﾟヮﾟ)', '^ㅂ^', 'ヽ(´▽`)/' ],
             carefree_above_arms_stretched_out_while_running_soaring: [
                 '⊂二二二（＾ω＾）二⊃'
             ],
-            spook: [ '(((( ；ﾟДﾟ)))' ]
+            spook: [ '(((( ；ﾟдﾟ))' ],
+            huge_surprise: [ 'σ(ﾟдﾟ)' ],
+            jog_someone_cheek: [ '(´∀｀)σ)∀`)' ],
+            amazed: [ '( ﾟдﾟ)' ],
+            smoking :[ '(´ー`)y-~~' ],
+            toast_cheers: [ '（ ^_^）o自自o（^_^ ）' ],
+            flash_intuition: [ 'm9(・∀・)' ],
+            friendly: [ 'ヽ(´ー`)人(´∇｀)人(`д´)ノ' ],
+            lonely: [ '(\'a`)' ],
+            depressed_unsatisfied: [ '（ ´,_ゝ`)' ],
+            thinking: [ '（´-`）.｡oo( ... )' ],
+            impatience: [ '(ﾟдﾟ;≡;ﾟдﾟ)' ],
+            whispers: [ '( ´д)ﾋｿ(´д｀)ﾋｿ(д｀)' ],
+            carrying_money: [ '（･∀･)つ⑩ ' ],
+            sliding_belly_whooaaa: [ '⊂（ﾟдﾟ⊂⌒｀つ≡≡≡(´⌒;;;≡≡≡' ],
+            unforeseen: [ '(ﾟдﾟ)' ],
+            i_do_not_need_it: [ '(ﾟ⊿ﾟ)' ],
+            come_on: [ 'щ(ﾟдﾟщ) (屮ﾟдﾟ)屮' ],
+            mocking_good: [ '（・∀・）' ],
+            that_is_bad: [ '（・ａ・）' ],
+            discharged_drug_in_brain_goofing_around: [ '(ﾟ∀ﾟ)' ],
+            sad: [ '（ つ д ｀）' ],
+            not_convincing: [ 'エェェ(´д｀)ェェエ' ],
+            simper_snorlax: [ '(￣ー￣)' ],
+            deflagged: [ '[ﾟдﾟ]' ],
+            happy_expressions_dancing_music: [ '♪┏(・o･)┛♪┗ ( ･o･) ┓' ],
+            happy_expression: [ 'd(*⌒▽⌒*)b' ],
+            given_up_despair: [ '＿|￣|○' ],
+            extreme_distaste: [ '(╬ ಠ益ಠ)' ],
+            shouting: [ '(≧ロ≦)' ],
+            pretending_not_notice_asleep_boredom: [ '(θεθ;)' ],
+            kick: [
+                '＼| ￣ヘ￣|／＿＿＿＿＿＿＿θ☆( *o*)/'
+            ],
+            discombobulated: [ '┌(；`～,)┐' ],
+            running: [ 'ε=ε=ε=┌(;*´д`)ﾉ' ],
+            shocked_2ch: [ '(l\'o\'l)' ],
+            really_angry: [ 'ヽ(ｏ`皿′ｏ)ﾉ' ],
+            do_it: [ '(☞ﾟヮﾟ)☞', '☜(ﾟヮﾟ☜)' ],
+            angel: [ '☜(⌒▽⌒)☞ ' ]
+        },
+        _2channel_emoticons_containing_japanese_phrases: {
+            its_here_kitaa_excitement: [
+                'キタ━━━(゜∀゜)━━━!!!!!'
+            ],
+            girlish_its_here_kitaa_excitementversion: [
+                'ｷﾀﾜァ*･゜ﾟ･*:.｡..｡.:*･゜(n‘∀‘)ηﾟ･*:.｡. .｡.:*･゜ﾟ･* !!'
+            ],
+            erotic_stirring_haa_haa: [ '(*´Д`)ﾊｧﾊｧ' ],
+            patting_nade_nade: [
+                '(　´Д｀)ﾉ(´･ω･`)　ﾅﾃﾞﾅﾃﾞ'
+            ],
+            calling_out_ooooi: [
+                '(*ﾟﾉOﾟ)<ｵｵｵｵｫｫｫｫｫｫｫｰｰｰｰｰｲ!'
+            ],
+            evil_laugh: [
+                '( ﾟ∀ﾟ)ｱﾊﾊ八八ﾉヽﾉヽﾉヽﾉ ＼ / ＼/ ＼'
+            ],
+            blaming_now_now: [
+                '（・∀・ ）ヾ(- -；)コラコラ' ],
+            kana_reading_o_ya_su_mi: [
+                'お(^o^)や(^O^)す(^｡^)みぃ(^-^)ﾉﾞ'
+            ]
+        },
+        multi_line_2channel_emoticons: {
+            stereotypical_character: {
+                korean_nidā: [
+                    '  <`∀´>  \n<丶｀∀´>'
+                ],
+                north_korean_kigā: [
+                    ' ［(★)］\n<丶´Д｀>'
+                ],
+                japanese_monā: [
+                    '  ∧＿∧  \n（；´Д｀）'
+                ],
+                chinese_sinā: [
+                    '  ∧∧  \n ／中＼ \n（｀ハ´）'
+                ],
+                taiwanese_wanā: [
+                    '  ∧∧  \n ／台＼ \n（＾∀＾）'
+                ]
+            }
         }
     }
 };

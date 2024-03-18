@@ -9,7 +9,14 @@ function randomInt(length) {
 }
 
 function formatIt(element, level) {
-    textFaces = `${textFaces}${'\t'.repeat(level)}${element}\n`;
+    if (element.includes('\n')) {
+        const multi = element.split('\n');
+        for (let i = 0; i < multi.length; i++) {
+            textFaces = `${textFaces}${'\t'.repeat(level)}${multi[i]}\n`;
+        }
+    } else {
+        textFaces = `${textFaces}${'\t'.repeat(level)}${element}\n`;
+    }
 }
 
 function prettyColletAllFaces(obj, stack) {
