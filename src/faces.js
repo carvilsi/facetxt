@@ -314,6 +314,12 @@ const canonical = {
                 ],
                 taiwanese_wanā: [
                     '  ∧∧  \n ／台＼ \n（＾∀＾）'
+                ],
+                vietnamese_venā: [
+                    '  ∧∧  \n ／ 越 ＼ \n（ ・∀・ ）'
+                ],
+                indian_monastē: [
+                    ' γ~三ヽ\n(三彡０ﾐ)\n（　´∀｀）'
                 ]
             }
         }
