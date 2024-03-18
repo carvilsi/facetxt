@@ -2,6 +2,7 @@ import faces from './faces.js';
 
 let arrayOfFaces = [];
 let textFaces = '';
+let facePath = '';
 
 // Gives a "random" number between 0 and length (inclusive)
 function randomInt(length) {
@@ -9,14 +10,7 @@ function randomInt(length) {
 }
 
 function formatIt(element, level) {
-    if (element.includes('\n')) {
-        const multi = element.split('\n');
-        for (let i = 0; i < multi.length; i++) {
-            textFaces = `${textFaces}${'\t'.repeat(level)}${multi[i]}\n`;
-        }
-    } else {
-        textFaces = `${textFaces}${'\t'.repeat(level)}${element}\n`;
-    }
+    textFaces = `${textFaces}${'\t'.repeat(level)}${element}\n`;
 }
 
 function prettyColletAllFaces(obj, stack) {
@@ -52,16 +46,14 @@ function collectFacesToArray(obj) {
         }
     }
 }
-
+/* eslint no-console: "off" */
 function getRandomFace(obj) {
     if (!Array.isArray(obj)) {
-        // Count number of properties of obj and get a random
-        // send it again here
         return getRandomFace(
             obj[Object.keys(obj)[randomInt(Object.keys(obj).length)]]);
-    } else if (typeof obj === 'object') {
-        return obj[randomInt(obj.length)];
     }
+    //console.log(Object.keys(obj));
+    return obj[randomInt(obj.length)];
 }
 
 function collectFaceByName(obj, name) {
