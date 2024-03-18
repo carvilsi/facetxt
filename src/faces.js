@@ -316,13 +316,37 @@ const canonical = {
                     '  ∧∧  \n ／台＼ \n（＾∀＾）'
                 ],
                 vietnamese_venā: [
-                    '  ∧∧  \n ／ 越 ＼ \n（ ・∀・ ）'
+                    '   ∧∧   \n ／ 越 ＼ \n（ ・∀・ ）'
                 ],
                 indian_monastē: [
-                    ' γ~三ヽ\n(三彡０ﾐ)\n（　´∀｀）'
+                    '  γ~三ヽ \n(三彡０ﾐ)\n（　´∀｀）'
                 ],
                 american_samū: [
-                    '  |￣￣|  \n ＿☆☆☆＿\n（ ´_⊃｀）'
+                    '  |￣￣|  \n  ＿☆☆☆＿\n（ ´_⊃｀）'
+                ],
+                jewish_yudā: [
+                    '  ┏━┓  \n━━━━━━━\nﾐΘc_Θ-ﾐ'
+                ],
+                english_jakū: [
+                    '   ＿＿ \n  │〓.│ \n ━━━━━━━\nﾐ　´_＞｀）'
+                ],
+                french_torirī: [
+                    '  ____  \n （〓__＞\nξ ・_>・）'
+                ],
+                german_gerumandamu: [
+                    ' _、,_\nﾐ　_⊃）'
+                ],
+                austrian_osutō: [
+                    '   ≡≡彡  \n彡 ´_)｀ ）'
+                ],
+                russian_rosukī: [
+                    ', , , , , , , ,\n ﾐ, ,☆;;;;;,ﾐ  \n  （｀c_ ´　）'
+                ],
+                mexican_amīgo: [
+                    '  _γ⌒ヽ_  \nlXXXXXXXXl\n（　´ｍ｀）'
+                ],
+                persian_jujø: [
+                    '     _      \n  <(o0o)>   \n(>ミ - ミ )>'
                 ]
             }
         }
