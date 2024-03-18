@@ -320,6 +320,9 @@ const canonical = {
                 ],
                 indian_monastē: [
                     ' γ~三ヽ\n(三彡０ﾐ)\n（　´∀｀）'
+                ],
+                american_samū: [
+                    '  |￣￣|  \n ＿☆☆☆＿\n（ ´_⊃｀）'
                 ]
             }
         }
