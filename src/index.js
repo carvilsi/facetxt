@@ -2,7 +2,6 @@ import faces from './faces.js';
 
 let arrayOfFaces = [];
 let textFaces = '';
-let facePath = '';
 
 // Gives a "random" number between 0 and length (inclusive)
 function randomInt(length) {
@@ -46,13 +45,13 @@ function collectFacesToArray(obj) {
         }
     }
 }
-/* eslint no-console: "off" */
+
+// TODO: rethink this!
 function getRandomFace(obj) {
     if (!Array.isArray(obj)) {
         return getRandomFace(
             obj[Object.keys(obj)[randomInt(Object.keys(obj).length)]]);
     }
-    //console.log(Object.keys(obj));
     return obj[randomInt(obj.length)];
 }
 
@@ -86,7 +85,11 @@ const facetxt = {
         return arrayOfFaces.flat(1);
     },
     get rand() {
-        return getRandomFace(faces);
+        arrayOfFaces = [];
+        collectFacesToArray(faces);
+        const allFaces = arrayOfFaces.flat(1);
+        return allFaces[randomInt(allFaces.length)]; 
+        //return getRandomFace(faces);
     },
     like(name) {
         arrayOfFaces = [];
