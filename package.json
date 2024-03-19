@@ -4,6 +4,9 @@
   "description": "",
   "main": "./src/index.js",
   "type": "module",
+  "bin": {
+      "facetxt": "bin/facetxt.js"
+  },
   "exports": "./src/index.js",
   "scripts": {
     "test": "npm run lint && ./node_modules/c8/bin/c8.js ava",

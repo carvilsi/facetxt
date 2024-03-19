@@ -4,7 +4,7 @@
 </div>
 
 <h1 align="center">FaceTxT</h1>
-<p align="center">(: text faces for the laughs :)</p>
+<p align="center"><3 text faces for the laughs :)</p>
 <p></p>
 
 ## Usage
