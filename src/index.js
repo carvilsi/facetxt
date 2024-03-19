@@ -19,13 +19,11 @@ function prettyColletAllFaces(obj, stack) {
         formatIt(obj.join(' '), level);
     }
     for (const property in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, property)) {
-            if (!Array.isArray(obj)) {
-                formatIt(`${property.replaceAll('_', ' ')}:`, level);
-            }
-            if (typeof obj[property] === 'object') {
-                prettyColletAllFaces(obj[property], `${stack},${property}`);
-            }
+        if (!Array.isArray(obj)) {
+            formatIt(`${property.replaceAll('_', ' ')}:`, level);
+        }
+        if (typeof obj[property] === 'object') {
+            prettyColletAllFaces(obj[property], `${stack},${property}`);
         }
     }
 }
@@ -35,42 +33,36 @@ function collectFacesToArray(obj) {
         arrayOfFaces.push(obj);
     }
     for (const property in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, property)) {
-            if (typeof obj[property] === 'object') {
-                collectFacesToArray(obj[property]);
-            }
+        if (typeof obj[property] === 'object') {
+            collectFacesToArray(obj[property]);
         }
     }
 }
 
 function collectFaceByName(obj, name) {
     for (const property in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, property)) {
-            if (!Array.isArray(obj)) {
-                const regexp = new RegExp(name, 'g');
-                if (property.match(regexp)?.length) {
-                    if (Array.isArray(obj[property])) {
-                        arrayOfFaces.push(obj[property]);
-                    }
+        if (!Array.isArray(obj)) {
+            const regexp = new RegExp(name, 'g');
+            if (property.match(regexp)?.length) {
+                if (Array.isArray(obj[property])) {
+                    arrayOfFaces.push(obj[property]);
                 }
             }
-            if (typeof obj[property] === 'object') {
-                collectFaceByName(obj[property], name);
-            }
+        }
+        if (typeof obj[property] === 'object') {
+            collectFaceByName(obj[property], name);
         }
     }
 }
 
 function reduceFacesObject(obj) {
     for (const property in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, property)) {
-            if (!Array.isArray(obj) && Array.isArray(obj[property])) {
-                reducedFaces = { ...reducedFaces, ...obj };
-                break;
-            }
-            if (typeof obj[property] === 'object') {
-                reduceFacesObject(obj[property]);
-            }
+        if (!Array.isArray(obj) && Array.isArray(obj[property])) {
+            reducedFaces = { ...reducedFaces, ...obj };
+            break;
+        }
+        if (typeof obj[property] === 'object') {
+            reduceFacesObject(obj[property]);
         }
     }
 }
