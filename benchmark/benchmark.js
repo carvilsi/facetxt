@@ -7,6 +7,9 @@ bench
   .add('random face', () => {
       facetxt.rand;
   })
+  .add('random face with description', () => {
+      facetxt.randDesc;
+  })
   .add('get array with all the faces', () => {
       facetxt.all;
   })

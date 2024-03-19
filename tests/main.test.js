@@ -15,34 +15,54 @@ const WHOLE_EMBARRASSED_FACES = [
     '(⁄⁄•⁄ω⁄•⁄⁄)'
 ];
 
-test('should retrieve an array of faces and a random face', (t) => {
-    const arrayOfFaces = facetxt.all;
+let arrayOfFaces = null;
+let face = null;
+let faceObj = null;
+let prettyStringFaces = null;
 
+test.before(() => {
+    arrayOfFaces = facetxt.all;
+    face = facetxt.rand;
+    faceObj = facetxt.randDesc;
+    prettyStringFaces = facetxt.list;
+});
+
+test('should retrieve an array of faces', (t) => {
     t.true(arrayOfFaces.length > 0, 'the array of faces is empty');
     t.is(arrayOfFaces.length, TOTAL_FACES);
+});
 
-    const face = facetxt.rand;
+test('should retrieve a random face', (t) => {
+    console.log(face);
 
     t.true(arrayOfFaces.indexOf(face) >= 0, 'face not found at faces array');
 });
 
-test('should retrieve string with all faces fo pretty print', (t) => {
-    const prettyString = facetxt.list;
-    console.log(prettyString);
+test('should retrieve a random face with the name or descrition', (t) => {
+    console.dir(faceObj);
 
-    t.assert(typeof prettyString === 'string');
+    t.true(Object.prototype.hasOwnProperty.call(faceObj, 'face'));
+    t.true(Object.prototype.hasOwnProperty.call(faceObj, 'description'));
+    t.true(prettyStringFaces.indexOf(faceObj.description) >= 0);
+    t.true(arrayOfFaces.indexOf(faceObj.face) >= 0, 'face not found at faces array');
+});
+
+test('should retrieve string with all faces fo pretty print', (t) => {
+    console.log(prettyStringFaces);
+
+    t.assert(typeof prettyStringFaces === 'string');
 });
 
 test('should retrieve a random face by name', (t) => {
-    const face = facetxt.like('embarrassed');
+    const faceLike = facetxt.like('embarrassed');
 
-    t.true(WHOLE_EMBARRASSED_FACES.indexOf(face) >= 0);
+    t.true(WHOLE_EMBARRASSED_FACES.indexOf(faceLike) >= 0);
 });
 
 test('should not retrieve a random face by name because does not exists', (t) => {
-    const face = facetxt.like('foz');
+    const faceLike = facetxt.like('foz');
 
-    t.is(typeof face, 'undefined');
+    t.is(typeof faceLike, 'undefined');
 });
 
 test('should retrieve the array related with name', (t) => {

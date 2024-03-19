@@ -15,17 +15,14 @@ function formatIt(element, level) {
 
 function prettyColletAllFaces(obj, stack) {
     const level = stack.split(',').length - 1;
-
     if (Array.isArray(obj)) {
         formatIt(obj.join(' '), level);
     }
-
     for (const property in obj) {
         if (Object.prototype.hasOwnProperty.call(obj, property)) {
             if (!Array.isArray(obj)) {
                 formatIt(`${property.replaceAll('_', ' ')}:`, level);
             }
-
             if (typeof obj[property] === 'object') {
                 prettyColletAllFaces(obj[property], `${stack},${property}`);
             }
@@ -78,6 +75,21 @@ function reduceFacesObject(obj) {
     }
 }
 
+function getRandomFace(description) {
+    reduceFacesObject(faces);
+    const facesKey = Object.keys(reducedFaces);
+    const faceKey = facesKey[randomInt(facesKey.length)];
+    const face = randomInt(reducedFaces[faceKey].length);
+    if (!description) {
+        return reducedFaces[faceKey][face];
+    }
+    const faceObj = {
+        face: reducedFaces[faceKey][face],
+        description: faceKey.replaceAll('_', ' '),
+    };
+    return faceObj;
+}
+
 const facetxt = {
     get list() {
         textFaces = '';
@@ -90,11 +102,10 @@ const facetxt = {
         return arrayOfFaces.flat(1);
     },
     get rand() {
-        reduceFacesObject(faces);
-        const facesKey = Object.keys(reducedFaces);
-        const faceKey = facesKey[randomInt(facesKey.length)];
-        const face = randomInt(reducedFaces[faceKey].length);
-        return reducedFaces[faceKey][face];
+        return getRandomFace();
+    },
+    get randDesc() {
+        return getRandomFace(true);
     },
     like(name) {
         arrayOfFaces = [];
