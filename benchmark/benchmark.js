@@ -1,16 +1,17 @@
 import { Bench } from 'tinybench';
 import facetxt from './../src/index.js';
 
-const REPORT_FILE = './benchmark/benchmark.txt';
-
 const bench = new Bench({ time: 100 });
 
 bench
   .add('random face', () => {
       facetxt.rand;
   })
-  .add('print all the faces', () => {
+  .add('get array with all the faces', () => {
       facetxt.all;
+  })
+  .add('get all the faces for pretty print', () => {
+      facetxt.list;
   })
   .add('get one by name; more than one', () => {
       facetxt.like('troubled');

@@ -2,7 +2,7 @@ import faces from './faces.js';
 
 let arrayOfFaces = [];
 let textFaces = '';
-let facePath = '';
+let reducedFaces = {};
 
 // Gives a "random" number between 0 and length (inclusive)
 function randomInt(length) {
@@ -37,7 +37,6 @@ function collectFacesToArray(obj) {
     if (Array.isArray(obj)) {
         arrayOfFaces.push(obj);
     }
-
     for (const property in obj) {
         if (Object.prototype.hasOwnProperty.call(obj, property)) {
             if (typeof obj[property] === 'object') {
@@ -45,15 +44,6 @@ function collectFacesToArray(obj) {
             }
         }
     }
-}
-/* eslint no-console: "off" */
-function getRandomFace(obj) {
-    if (!Array.isArray(obj)) {
-        return getRandomFace(
-            obj[Object.keys(obj)[randomInt(Object.keys(obj).length)]]);
-    }
-    //console.log(Object.keys(obj));
-    return obj[randomInt(obj.length)];
 }
 
 function collectFaceByName(obj, name) {
@@ -74,6 +64,20 @@ function collectFaceByName(obj, name) {
     }
 }
 
+function reduceFacesObject(obj) {
+    for (const property in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, property)) {
+            if (!Array.isArray(obj) && Array.isArray(obj[property])) {
+                reducedFaces = { ...reducedFaces, ...obj };
+                break;
+            }
+            if (typeof obj[property] === 'object') {
+                reduceFacesObject(obj[property]);
+            }
+        }
+    }
+}
+
 const facetxt = {
     get list() {
         textFaces = '';
@@ -86,7 +90,11 @@ const facetxt = {
         return arrayOfFaces.flat(1);
     },
     get rand() {
-        return getRandomFace(faces);
+        reduceFacesObject(faces);
+        const facesKey = Object.keys(reducedFaces);
+        const faceKey = facesKey[randomInt(facesKey.length)];
+        const face = randomInt(reducedFaces[faceKey].length);
+        return reducedFaces[faceKey][face];
     },
     like(name) {
         arrayOfFaces = [];
