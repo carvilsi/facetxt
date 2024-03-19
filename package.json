@@ -9,7 +9,8 @@
   },
   "exports": "./src/index.js",
   "scripts": {
-    "test": "npm run lint && ./node_modules/c8/bin/c8.js ava",
+    "test": "npm run lint && npm run test-cli && ./node_modules/c8/bin/c8.js ava",
+    "test-cli": "bats tests/facetxt-cli.bats",
     "coverage": "./node_modules/c8/bin/c8.js npm test",
     "lint": "./node_modules/eslint/bin/eslint.js src/ --ext .js",
     "lint-test": "./node_modules/eslint/bin/eslint.js tests/ --ext .js",

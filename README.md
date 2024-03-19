@@ -9,6 +9,15 @@
 
 ## Usage
 
+## Tests
 
+In order to tests the small cli, [bats](https://github.com/sstephenson/bats.git) it's need it.
+To install it:
+
+```bash
+$ git clone https://github.com/sstephenson/bats.git
+$ cd bats
+$ ./install.sh /usr/local
+```
 
 https://en.wikipedia.org/wiki/List_of_emoticons
