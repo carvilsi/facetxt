@@ -301,8 +301,8 @@ const canonical = {
     }
 };
 
-const custom = {
-    myth: {
+const customs = {
+    custom: {
         cthulhu: [ '^(;,;)^' ],
         facepalm: [ '(P,\')', '(p,\')' ],
         horns_heavy: [ '\\m/,' ],
@@ -311,6 +311,6 @@ const custom = {
     }
 };
 
-const faces = { ...canonical, ...custom };
+const faces = { ...canonical, ...customs };
 
 export default faces;
