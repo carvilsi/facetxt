@@ -1,7 +1,6 @@
 import faces from './faces.js';
 
 let arrayOfFaces = [];
-let arrayOfFacesName = [];
 let textFaces = '';
 let reducedFaces = {};
 
@@ -40,22 +39,6 @@ function collectFacesToArray(obj) {
     }
 }
 
-function collectFaceByName(obj, name) {
-    for (const property in obj) {
-        if (!Array.isArray(obj)) {
-            const regexp = new RegExp(name, 'g');
-            if (property.match(regexp)?.length) {
-                if (Array.isArray(obj[property])) {
-                    arrayOfFacesName.push(obj[property]);
-                }
-            }
-        }
-        if (typeof obj[property] === 'object') {
-            collectFaceByName(obj[property], name);
-        }
-    }
-}
-
 function reduceFacesObject(obj) {
     for (const property in obj) {
         if (!Array.isArray(obj) && Array.isArray(obj[property])) {
@@ -68,10 +51,18 @@ function reduceFacesObject(obj) {
     }
 }
 
-function getRandomFace(description = false) {
-    if (!Object.keys(reducedFaces).length) {
-        reduceFacesObject(faces);
+function collectFaceByName(name) {
+    const arrayOfFacesName = [];
+    for (const property in reducedFaces) {
+        const regexp = new RegExp(name, 'g');
+        if (property.match(regexp)?.length) {
+            arrayOfFacesName.push(reducedFaces[property]);
+        }
     }
+    return arrayOfFacesName.flat(1);
+}
+
+function getRandomFace(description = false) {
     const facesKey = Object.keys(reducedFaces);
     const faceKey = facesKey[randomInt(facesKey.length)];
     const face = randomInt(reducedFaces[faceKey].length);
@@ -105,16 +96,15 @@ const facetxt = {
         return getRandomFace(true);
     },
     like(name) {
-        arrayOfFacesName = [];
-        collectFaceByName(faces, name);
-        const arr = arrayOfFacesName.flat(1);
+        const arr = collectFaceByName(name);
         return arr[randomInt(arr.length)];
     },
     likes(name) {
-        arrayOfFacesName = [];
-        collectFaceByName(faces, name);
-        return arrayOfFacesName.flat(1);
+        return collectFaceByName(name);
     }
 };
+
+// get the reduced object with faces for random and like functions
+reduceFacesObject(faces);
 
 export default facetxt;
