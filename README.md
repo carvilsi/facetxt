@@ -112,15 +112,18 @@ In order to tests the small cli, [bats](https://github.com/sstephenson/bats.git)
 
 <details><summary>To install it:</summary>
 <p>
+
 ```bash
 $ git clone https://github.com/sstephenson/bats.git
 $ cd bats
 $ ./install.sh /usr/local
 ```
+
 </p>
 </details>
 
 Then install the dev dependencies:
+
 `$ npm install`
 
 - Run all the things; tests for code and cli (requires **bats**), linter for source code and tests and cli and coverage.
