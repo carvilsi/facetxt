@@ -587,3 +587,7 @@ custom:
     star:
         ☆
 
+---
+
+Feedback from usage and contributions are very welcome.
+Also if you like it, please leave a :star: I would appreciate it ;)
