@@ -7,6 +7,18 @@
 <p align="center"><3 text faces for the laughs :)</p>
 <p></p>
 
+<div align="center">
+<i>"My mama always said, 'FaceTXT was like a box of chocolates.</i> 
+<i>You never know what you're gonna get.'"</i>
+</div>
+
+<p></p>
+<p></p>
+
+<div align="center">
+<p>Have a random text face, or the one that you choose, on your command line or in your project.</p>
+</div>
+
 ## Usage
 
 ### As dependency
