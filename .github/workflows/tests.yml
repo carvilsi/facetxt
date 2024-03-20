@@ -28,3 +28,5 @@ jobs:
         npm install
     - name: tests  
       run: npm test
+    - name: benchmarking
+      run: npm run benchmark
