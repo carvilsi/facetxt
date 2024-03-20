@@ -17,8 +17,16 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '18.x'
+    - name: bats install
+      run: |
+        git clone https://github.com/sstephenson/bats.git
+        cd bats
+        sudo ./install.sh /usr/local
+        cd -
     - name: dependencies 
       run: |
         npm install
     - name: tests  
       run: npm test
+    - name: benchmarking
+      run: npm run benchmark

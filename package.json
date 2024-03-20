@@ -1,26 +1,47 @@
 {
-  "name": "textfaces",
+  "name": "facetxt",
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.js",
   "type": "module",
+  "bin": {
+      "facetxt": "bin/facetxt.js"
+  },
   "exports": "./src/index.js",
   "scripts": {
-    "test": "npm run lint && ./node_modules/c8/bin/c8.js ava",
+    "test": "npm run lint && npm run lint-bin && npm run lint-test && npm run test-cli &&npm run test-src",
+    "test-src": "./node_modules/c8/bin/c8.js ava", 
+    "test-cli": "bats tests/facetxt-cli.bats",
     "coverage": "./node_modules/c8/bin/c8.js npm test",
     "lint": "./node_modules/eslint/bin/eslint.js src/ --ext .js",
     "lint-test": "./node_modules/eslint/bin/eslint.js tests/ --ext .js",
     "lint-fix": "./node_modules/eslint/bin/eslint.js src/ --ext .js --fix",
-    "lint-test-fix": "./node_modules/eslint/bin/eslint.js tests/ --ext .js --fix"
+    "lint-test-fix": "./node_modules/eslint/bin/eslint.js tests/ --ext .js --fix",
+    "lint-bin": "./node_modules/eslint/bin/eslint.js bin/facetxt.js --ext .js",
+    "lint-bin-fix": "./node_modules/eslint/bin/eslint.js bin/facetxt.js --ext .js --fix",
+    "benchmark": "node ./benchmark/benchmark.js > ./benchmark/report.txt && cat ./benchmark/report.txt",
+    "dev": "nodemon -w . -x 'npm test && npm run benchmark'",
+    "release": "tag=$(node -e \"console.log(require('./package.json').version)\"); git tag v${tag}; git push origin v${tag} && npm publish"
   },
   "keywords": [
-    "textfaces"
+    "textfaces",
+    "nodejs",
+    "emoji",
+    "npm",
+    "ascii-art",
+    "emoticons",
+    "text-based",
+    "kaomoji",
+    "emoticon",
+    "kaomoji-emoticons",
+    "text-faces" 
   ],
   "author": "char@omg.lol",
   "license": "MIT",
   "devDependencies": {
     "ava": "^6.1.2",
     "c8": "^9.1.0",
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.0",
+    "tinybench": "^2.6.0"
   }
 }
