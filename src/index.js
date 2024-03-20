@@ -1,6 +1,7 @@
 import faces from './faces.js';
 
 let arrayOfFaces = [];
+let arrayOfFacesName = [];
 let textFaces = '';
 let reducedFaces = {};
 
@@ -45,7 +46,7 @@ function collectFaceByName(obj, name) {
             const regexp = new RegExp(name, 'g');
             if (property.match(regexp)?.length) {
                 if (Array.isArray(obj[property])) {
-                    arrayOfFaces.push(obj[property]);
+                    arrayOfFacesName.push(obj[property]);
                 }
             }
         }
@@ -67,8 +68,10 @@ function reduceFacesObject(obj) {
     }
 }
 
-function getRandomFace(description) {
-    reduceFacesObject(faces);
+function getRandomFace(description = false) {
+    if (!Object.keys(reducedFaces).length) {
+        reduceFacesObject(faces);
+    }
     const facesKey = Object.keys(reducedFaces);
     const faceKey = facesKey[randomInt(facesKey.length)];
     const face = randomInt(reducedFaces[faceKey].length);
@@ -84,13 +87,15 @@ function getRandomFace(description) {
 
 const facetxt = {
     get list() {
-        textFaces = '';
-        prettyColletAllFaces(faces, '');
+        if (!textFaces.length) {
+            prettyColletAllFaces(faces, '');
+        }
         return textFaces;
     },
     get all() {
-        arrayOfFaces = [];
-        collectFacesToArray(faces);
+        if (!arrayOfFaces.length) {
+            collectFacesToArray(faces);
+        }
         return arrayOfFaces.flat(1);
     },
     get rand() {
@@ -100,15 +105,15 @@ const facetxt = {
         return getRandomFace(true);
     },
     like(name) {
-        arrayOfFaces = [];
+        arrayOfFacesName = [];
         collectFaceByName(faces, name);
-        const arr = arrayOfFaces.flat(1);
+        const arr = arrayOfFacesName.flat(1);
         return arr[randomInt(arr.length)];
     },
     likes(name) {
-        arrayOfFaces = [];
+        arrayOfFacesName = [];
         collectFaceByName(faces, name);
-        return arrayOfFaces.flat(1);
+        return arrayOfFacesName.flat(1);
     }
 };
 
