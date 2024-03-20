@@ -133,27 +133,35 @@ Then install the dev dependencies:
 <p>
 
 - Run source tests
+
 `$ npm run test-src`
 
 - Run cli tests 
+
 `$ npm run test-cli`
 
 - Run coverage
+
 `$ npm run coverage`
 
 - Run lint for source code
+
 `$ npm run lint` (lint-fix for auto fix)
 
 - Run lint for tests
+
 `$ npm run lint-test` (lint-test-fix for auto fix)
 
 - Run lint for cli
+
 `$ npm run lint-bin` (lint-bin-fix for auto fix)
 
 - Run benchmark, this also saves the output report at *benchmark/report.txt*
+
 `$ npm run benchmark` 
 
 - Run with watcher for develop mode, requires [nodemon](https://github.com/remy/nodemon)
+
 `$ npm run dev`
 
 </p>
