@@ -26,7 +26,7 @@ bench
       facetxt.likes('troubled');
   });
 
-await bench.warmup(); // make results more reliable, ref: https://github.com/tinylibs/tinybench/pull/50
+await bench.warmup(); 
 await bench.run();
 
 console.table(bench.table());
