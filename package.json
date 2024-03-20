@@ -20,10 +20,21 @@
     "lint-bin": "./node_modules/eslint/bin/eslint.js bin/facetxt.js --ext .js",
     "lint-bin-fix": "./node_modules/eslint/bin/eslint.js bin/facetxt.js --ext .js --fix",
     "benchmark": "node ./benchmark/benchmark.js > ./benchmark/report.txt && cat ./benchmark/report.txt",
-    "dev": "nodemon -w . -x 'npm test && npm run benchmark'"
+    "dev": "nodemon -w . -x 'npm test && npm run benchmark'",
+    "release": "tag=$(node -e \"console.log(require('./package.json').version)\"); git tag v${tag}; git push origin v${tag} && npm publish"
   },
   "keywords": [
-    "textfaces"
+    "textfaces",
+    "nodejs",
+    "emoji",
+    "npm",
+    "ascii-art",
+    "emoticons",
+    "text-based",
+    "kaomoji",
+    "emoticon",
+    "kaomoji-emoticons",
+    "text-faces" 
   ],
   "author": "char@omg.lol",
   "license": "MIT",
