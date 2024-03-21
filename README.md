@@ -602,6 +602,8 @@ custom:
         (p_-) (-_q)
     star:
         ☆
+    thinking nonocle:
+        õ_o o_Ô
 ```
 
 ---
