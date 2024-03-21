@@ -1,6 +1,6 @@
 {
   "name": "facetxt",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "./src/index.js",
   "type": "module",
@@ -21,6 +21,7 @@
     "lint-bin-fix": "./node_modules/eslint/bin/eslint.js bin/facetxt.js --ext .js --fix",
     "benchmark": "node ./benchmark/benchmark.js > ./benchmark/report.txt && cat ./benchmark/report.txt",
     "dev": "nodemon -w . -x 'npm test && npm run benchmark'",
+    "pre-release": "npm audit && ./pre-release.sh",
     "release": "tag=$(node -e \"console.log(require('./package.json').version)\"); git tag v${tag}; git push origin v${tag} && npm publish"
   },
   "keywords": [

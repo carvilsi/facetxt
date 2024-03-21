@@ -34,7 +34,7 @@
 
 @test "should not retrieve a foobar like face, since does not exists" {
   run ./bin/facetxt.js like foobar 
-  [ "$output" == "Could not find a face like: foobar" ]
+  [ $(expr "${lines[0]}" : "Could not find a face like: \"foobar\".*") -ne 0 ]
   [ "${output}" != "undefined" ]
 }
 
@@ -46,6 +46,33 @@
 
 @test "should not retrieve a foobar likes face, since does not exists" {
   run ./bin/facetxt.js likes foobar 
-  [ "$output" == "Could not find faces like: foobar" ]
+  [ $(expr "${lines[0]}" : "Could not find a face like: \"foobar\".*") -ne 0 ]
   [ "${output}" != "undefined" ]
+}
+
+@test "should retrieve help" {
+  run ./bin/facetxt.js help 
+  [ $(expr "${lines[0]}" : "facetxt@.* with <3 by char@omg.lol") -ne 0 ]
+  [ "${lines[1]}" = "Commands:" ]
+  [ $(expr "${lines[2]}" : ".*version.*toutput the version number") -ne 0 ]
+  [ $(expr "${lines[3]}" : ".*help.*display this text") -ne 0 ]
+  [ $(expr "${lines[4]}" : ".*rand.*get a random face") -ne 0 ]
+  [ $(expr "${lines[5]}" : ".*randDesc.*get a random face with description") -ne 0 ]
+  [ $(expr "${lines[6]}" : ".*list.*pretty prints all the faces") -ne 0 ]
+  [ $(expr "${lines[7]}" : ".*all.*get an array with all faces") -ne 0 ]
+  [ $(expr "${lines[8]}" : ".*like.*get one face by name; if more than one, will be return randomly") -ne 0 ]
+  [ $(expr "${lines[9]}" : ".*likes.*get an array of faces by name") -ne 0 ] 
+}
+
+@test "should retrieve help on unknown command" {
+  run ./bin/facetxt.js foobar 
+  [ $(expr "${lines[0]}" : "Unknown command: \"foobar\".*") -ne 0 ]
+  [ "${lines[1]}" = "Usage:" ]
+  [ $(expr "${lines[2]}" : "facetxt@.* with <3 by char@omg.lol") -ne 0 ]
+  [ "${lines[3]}" = "Commands:" ]
+}
+
+@test "should retrieve version" {
+  run ./bin/facetxt.js version 
+  [ $(expr "${lines[0]}" : "facetxt@.*") -ne 0 ]
 }
