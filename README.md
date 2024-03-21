@@ -17,6 +17,9 @@
 
 <div align="center">
 <p>Have a random text face, or the one that you choose, on your command line or in your project.</p>
+<p></p>
+<p></p>
+<p>Now with 500 awesome faces! o_O</p>
 </div>
 
 ## Usage
@@ -68,6 +71,19 @@ console.log(facetxt.list);
 ### CLI (Command line)
 
 `$ npm install -g facetxt`
+
+```
+Commands:
+        version    toutput the version number
+        help       display this text
+
+        rand       get a random face
+        randDesc   get a random face with description
+        list       pretty prints all the faces
+        all        get an array with all faces
+        like       get one face by name; if more than one, will be return randomly
+        likes      get an array of faces by name
+```
 
 ```bash
 # get one random face
