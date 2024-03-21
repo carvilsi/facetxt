@@ -307,7 +307,8 @@ const customs = {
         facepalm: [ '(P,\')', '(p,\')' ],
         horns_heavy: [ '\\m/,' ],
         question: [ '(p_-)', '(-_q)' ],
-        star: [ '☆' ]
+        star: [ '☆' ],
+        thinking_nonocle: [ 'õ_o', 'o_Ô' ]
     }
 };
 
