@@ -308,7 +308,12 @@ const customs = {
         horns_heavy: [ '\\m/,' ],
         question: [ '(p_-)', '(-_q)' ],
         star: [ '☆' ],
-        thinking_nonocle: [ 'õ_o', 'o_Ô' ]
+        thinking_nonocle: [ 'õ_o', 'o_Ô' ],
+        dazed: [ '@_@' ],
+        greedy: [ '$_$' ],
+        confusion: [ '?_?' ],
+        shyness: [ '6_6' ],
+        surprise_shock: [ '!_!' ]
     }
 };
 
