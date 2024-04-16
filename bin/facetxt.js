@@ -11,7 +11,7 @@ const pckg = JSON.parse(
 
 const usage = `${pckg.name}@${pckg.version} with <3 by char@omg.lol\n` +
     `Commands:\n${
-        '\tversion'.padEnd(12) }toutput the version number\n${
+        '\tversion'.padEnd(12) }output the version number\n${
         '\thelp'.padEnd(12) }display this text\n\n${
         '\trand'.padEnd(12) }get a random face\n${
         '\trandDesc'.padEnd(12) }get a random face with description\n${
@@ -19,7 +19,8 @@ const usage = `${pckg.name}@${pckg.version} with <3 by char@omg.lol\n` +
         '\tall'.padEnd(12) }get an array with all faces\n${
         '\tlike'.padEnd(12) }get one face by name; if more than one, will` +
     ` be return randomly\n${
-        '\tlikes'.padEnd(12) }get an array of faces by name\n`;
+        '\tlikes'.padEnd(12) }get an array of faces by name\n\n` +
+    'Note: all commands also supports "--" e.g. $ facetext --version';
 const UNKNOWN_COMMAND_FACE = 'shrug';
 const NOT_FOUND_FACE = 'sad';
 const unknownCommand = 'Unknown command: ' +
@@ -30,24 +31,33 @@ const faceNotFound = 'Could not find a face like: ' +
 
 /* eslint no-console: "off" */
 (() => {
+    if (process.argv.length === 2) {
+        console.log(facetxt.rand);
+    }
     if (process.argv.length === 3) {
         switch (process.argv[2]) {
         case 'help':
+        case '--help':
             console.log(usage);
             break;
         case 'version':
+        case '--version':
             console.log(`${pckg.name}@${pckg.version}`);
             break;
         case 'list':
+        case '--list':
             console.log(facetxt.list);
             break;
         case 'all':
+        case '--all':
             console.log(facetxt.all);
             break;
         case 'rand':
+        case '--rand':
             console.log(facetxt.rand);
             break;
-        case 'randDesc': {
+        case 'randDesc':
+        case '--randDesc': {
             const randFace = facetxt.randDesc;
             console.log(`${randFace.face} --${randFace.description}--`);
             break;
@@ -58,7 +68,8 @@ const faceNotFound = 'Could not find a face like: ' +
     }
     if (process.argv.length === 4) {
         switch (process.argv[2]) {
-        case 'like': {
+        case 'like':
+        case '--like': {
             const faceLike = facetxt.like(process.argv[3]);
             if (typeof faceLike === 'undefined') {
                 console.log(faceNotFound);
@@ -67,7 +78,8 @@ const faceNotFound = 'Could not find a face like: ' +
             }
             break;
         }
-        case 'likes': {
+        case 'likes':
+        case '--likes': {
             const facesLike = facetxt.likes(process.argv[3]);
             if (!facesLike.length) {
                 console.log(faceNotFound);

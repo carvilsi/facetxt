@@ -1,8 +1,13 @@
 # Changelog
 
+# [v1.3.0](https://github.com/carvilsi/facetxt/releases/tag/v1.3.0) (2024-04-16)
+
+- cli get random face when no command provided
+- cli possible to use -- with any command 
+
 # [v1.2.0](https://github.com/carvilsi/facetxt/releases/tag/v1.2.0) (2024-04-16)
 
-- - added 5 faces :)
+- added 5 faces :)
 
 # [v1.1.0](https://github.com/carvilsi/facetxt/releases/tag/v1.1.0) (2024-03-21)
 
