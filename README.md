@@ -19,7 +19,7 @@
 <p>Have a random text face, or the one that you choose, on your command line or in your project.</p>
 <p></p>
 <p></p>
-<p>Now with 539 awesome faces! o_O</p>
+<p>Now with 544 awesome faces! o_O</p>
 </div>
 
 ## Usage

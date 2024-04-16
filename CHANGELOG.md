@@ -1,5 +1,9 @@
 # Changelog
 
+# [v1.2.0](https://github.com/carvilsi/facetxt/releases/tag/v1.2.0) (2024-04-16)
+
+- - added 5 faces :)
+
 # [v1.1.0](https://github.com/carvilsi/facetxt/releases/tag/v1.1.0) (2024-03-21)
 
 - adding 2 faces 
