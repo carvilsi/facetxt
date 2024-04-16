@@ -70,7 +70,13 @@ console.log(facetxt.list);
 ```
 ### CLI (Command line)
 
+#### Install
+
 `$ npm install -g facetxt`
+
+#### Usage
+
+`$ facetxt [commands]`
 
 ```
 Commands:
@@ -83,12 +89,15 @@ Commands:
         all        get an array with all faces
         like       get one face by name; if more than one, will be return randomly
         likes      get an array of faces by name
+
+Note: all commands also supports "--" e.g. $ facetext --version
 ```
 
 ```bash
 # get one random face
-$ facetxt rand
+$ facetxt 
 (°レ°)
+# same as: "$ facetxt rand"
 
 # get one random face with description
 $ facetxt randDesc
