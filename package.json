@@ -38,6 +38,10 @@
     "text-faces" 
   ],
   "author": "char@omg.lol",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/carvilsi/facetxt"
+  },
   "license": "MIT",
   "devDependencies": {
     "ava": "^6.1.2",
