@@ -208,6 +208,7 @@ Then install the dev dependencies:
 
 All the faces but the *custom* section are from [wikipedia's "List of emoticons article](https://en.wikipedia.org/wiki/List_of_emoticons)
 
+At *custom* section the **asciimoji** entries are from [jigglycrumb](https://github.com/jigglycrumb/ASCIImoji) under "THE BEER-WARE LICENSE" (Revision 42)
 ```
 western:
     sideways latin only emoticons:
