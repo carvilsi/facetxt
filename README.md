@@ -209,6 +209,7 @@ Then install the dev dependencies:
 All the faces but the *custom* section are from [wikipedia's "List of emoticons article](https://en.wikipedia.org/wiki/List_of_emoticons)
 
 At *custom* section the **asciimoji** entries are from [jigglycrumb](https://github.com/jigglycrumb/ASCIImoji) under "THE BEER-WARE LICENSE" (Revision 42)
+
 ```
 western:
     sideways latin only emoticons:
@@ -624,6 +625,427 @@ custom:
         6_6
     surprise shock:
         !_!
+asciimoji:
+    acid:
+        ⊂(◉‿◉)つ
+    afraid:
+        (ㆆ _ ㆆ)
+    arrowhead:
+        ⤜(ⱺ ʖ̯ⱺ)⤏
+    bearflip:
+        ʕノ•ᴥ•ʔノ ︵ ┻━┻
+    bearhug:
+        ʕっ•ᴥ•ʔっ
+    blackeye:
+        0__#
+    blubby:
+        (      0    _   0    )
+    bond 007:
+        ┌( ͝° ͜ʖ͡°)=ε/̵͇̿̿/’̿’̿ ̿
+    boobs:
+        ( . Y . )
+    bribe:
+        ( •͡˘ _•͡˘)ノð
+    butterfly:
+        ƸӜƷ
+    catlenny:
+        ( ͡° ᴥ ͡°)﻿
+    chubby:
+        ╭(ʘ̆~◞౪◟~ʘ̆)╮
+    claro:
+        (͡ ° ͜ʖ ͡ °)
+    clique gang squad:
+        ヽ༼ ຈل͜ຈ༼ ▀̿̿Ĺ̯̿̿▀̿ ̿༽Ɵ͆ل͜Ɵ͆ ༽ﾉ
+    coffee cuppa:
+        c[_]
+    creep:
+        ԅ(≖‿≖ԅ)
+    creepcute:
+        ƪ(ړײ)‎ƪ​​
+    crim3s:
+        ( ✜︵✜ )
+    crywave:
+        ( ╥﹏╥) ノシ
+    dab:
+        ヽ( •_)ᕗ
+    damnyou:
+        (ᕗ ͠° ਊ ͠° )ᕗ
+    dance:
+        ᕕ(⌐■_■)ᕗ ♪♬
+    dealwithit dwi:
+        (⌐■_■)
+    derp:
+        ☉ ‿ ⚆
+    dj:
+        d[-_-]b
+    dong:
+        (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
+    donger:
+        ヽ༼ຈل͜ຈ༽ﾉ
+    dontcare idc:
+        (- ʖ̯-)
+    want dontwant:
+        ヽ(｀Д´)ﾉ
+    dope:
+        <(^_^)>
+    doubleflat:
+        𝄫
+    doublesharp:
+        𝄪
+    doubletableflip:
+        ┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻
+    duckface:
+        (・3・)
+    duel:
+        ᕕ(╭ರ╭ ͟ʖ╮•́)⊃¤=(————-
+    duh:
+        (≧︿≦)
+    dunno:
+        ¯\(°_o)/¯
+    eeriemob:
+        (-(-_-(-_(-_(-_-)_-)-_-)_-)_-)-)
+    endure:
+        (҂◡_◡) ᕤ
+    envelope letter:
+        ✉︎
+    evillenny:
+        (͠≖ ͜ʖ͠≖)
+    execution:
+        (⌐■_■)︻╦╤─   (╥﹏╥)
+    facebook:
+        (╯°□°)╯︵ ʞooqǝɔɐɟ
+    fart:
+        (ˆ⺫ˆ๑)<3
+    finn:
+        | (• ◡•)|
+    flexing:
+        ᕙ(`▽´)ᕗ
+    flipped heavytable:
+        ┬─┬﻿ ︵ /(.□. \）
+    fly:
+        ─=≡Σ((( つ◕ل͜◕)つ
+    friendflip:
+        (╯°□°)╯︵ ┻━┻ ︵ ╯(°□° ╯)
+    frown:
+        (ღ˘⌣˘ღ)
+    fuckoff gtfo:
+        ୧༼ಠ益ಠ╭∩╮༽
+    fuckyou fu:
+        ┌П┐(ಠ_ಠ)
+    gentleman sir monocle:
+        ಠ_ರೃ
+    ghast:
+        = _ =
+    ghost:
+        ༼ つ ╹ ╹ ༽つ
+    gift present:
+        (´・ω・)っ由
+    gimme:
+        ༼ つ ◕_◕ ༽つ
+    givemeyourmoney:
+        (•-•)⌐
+    glitter:
+        (*・‿・)ノ⌒*:･ﾟ✧
+    glassesoff:
+        ( ͡° ͜ʖ ͡°)ﾉ⌐■-■
+    glitterderp:
+        (ﾉ☉ヮ⚆)ﾉ ⌒*:･ﾟ✧
+    gloomy:
+        (_゜_゜_)
+    goatse:
+        (з๏ε)
+    gotit:
+        (☞ﾟ∀ﾟ)☞
+    greet greetings:
+        ( ´◔ ω◔`) ノシ
+    gun mg:
+        ︻╦╤─
+    hadouken:
+        ༼つಠ益ಠ༽つ ─=≡ΣO))
+    haha:
+        ٩(^‿^)۶
+    happygarry:
+        ᕕ( ᐛ )ᕗ
+    hello ohai bye:
+        (ʘ‿ʘ)╯
+    help:
+        \(°Ω°)/
+    highfive:
+        ._.)/\(._.
+    hitting:
+        ( ｀皿´)｡ﾐ/
+    hug hugs:
+        (づ｡◕‿‿◕｡)づ
+    iknowright ikr:
+        ┐｜･ิω･ิ#｜┌
+    illuminati:
+        ୧(▲ᴗ▲)ノ
+    inlove:
+        (っ´ω`c)♡
+    internet:
+        ଘ(੭*ˊᵕˋ)੭* ̀ˋ ɪɴᴛᴇʀɴᴇᴛ
+    jake:
+        (❍ᴥ❍ʋ)
+    kappa:
+        (¬,‿,¬)
+    kawaii:
+        ≧◡≦
+    keen:
+        ┬┴┬┴┤Ɵ͆ل͜Ɵ͆ ༽ﾉ
+    kiahh:
+        ~\(≧▽≦)/~
+    kyubey:
+        ／人◕ ‿‿ ◕人＼
+    lazy:
+        _(:3」∠)_
+    lennybill:
+        [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]
+    lennyfight:
+        (ง ͠° ͟ʖ ͡°)ง
+    lennyflip:
+        (ノ ͡° ͜ʖ ͡°ノ)   ︵ ( ͜。 ͡ʖ ͜。)
+    lennygang:
+        ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)
+    lennyshrug:
+        ¯\_( ͡° ͜ʖ ͡°)_/¯
+    lennysir:
+        ( ಠ ͜ʖ ರೃ)
+    lennystalker:
+        ┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴
+    lennystrong:
+        ᕦ( ͡° ͜ʖ ͡°)ᕤ
+    lennywizard:
+        ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ
+    lol:
+        L(° O °L)
+    love:
+        ♥‿♥
+    lovebear:
+        ʕ♥ᴥ♥ʔ
+    lumpy:
+        ꒰ ꒡⌓꒡꒱
+    luv:
+        -`ღ´-
+    magic:
+        ヽ(｀Д´)⊃━☆ﾟ. * ･ ｡ﾟ,
+    magicflip:
+        (/¯◡ ‿ ◡)/¯ ~ ┻━┻
+    meep:
+        \(°^°)/
+    meh:
+        ಠ_ಠ
+    metal rock:
+        \m/,(> . <)_\m/
+    mistyeyes:
+        ಡ_ಡ
+    monster:
+        ༼ ༎ຶ ෴ ༎ຶ༽
+    needle inject:
+        ┌(◉ ͜ʖ◉)つ┣▇▇▇═──
+    nerd:
+        (⌐⊙_⊙)
+    nice:
+        ( ͡° ͜ °)
+    noclue:
+        ／人◕ __ ◕人＼
+    nom yummy delicious:
+        (っˆڡˆς)
+    nyan:
+        ~=[,,_,,]:3
+    nyeh:
+        @^@
+    ohshit:
+        ( º﹃º )
+    omg:
+        ◕_◕
+    orly:
+        (눈_눈)
+    ohyou ou:
+        (◞థ౪థ)ᴖ
+    pear:
+        (__>-
+    pingpong:
+        ( •_•)O*¯`·.¸.·´¯`°Q(•_• )
+    plain:
+        ._.
+    pleased:
+        (˶‾᷄ ⁻̫ ‾᷅˵)
+    point:
+        (☞ﾟヮﾟ)☞
+    pooh:
+        ʕ •́؈•̀)
+    porcupine:
+        (•ᴥ• )́`́'́`́'́⻍
+    praise:
+        (☝ ՞ਊ ՞)☝
+    punch:
+        O=('-'Q)
+    rage mad:
+        t(ಠ益ಠt)
+    rageflip:
+        (ノಠ益ಠ)ノ彡┻━┻
+    rainbowcat:
+        (=^･ｪ･^=))ﾉ彡☆
+    riot:
+        ୧༼ಠ益ಠ༽୨
+    rolleyes:
+        (◔_◔)
+    saddonger:
+        ヽ༼ຈʖ̯ຈ༽ﾉ
+    sadlenny:
+        ( ͡° ʖ̯ ͡°)
+    smirk:
+        ¬‿¬
+    sob:
+        (;´༎ຶД༎ຶ`)
+    soviettableflip:
+        ノ┬─┬ノ ︵ ( \o°o)\
+    strong:
+        ᕙ(⇀‸↼‶)ᕗ
+    suicide:
+        ε/̵͇̿̿/’̿’̿ ̿(◡︵◡)
+    surrender:
+        \_(-_-)_/
+    stalker:
+        ┬┴┬┴┤(･_├┬┴┬┴
+    swag:
+        (̿▀̿‿ ̿▀̿ ̿)
+    sword:
+        o()xxxx[{::::::::::::::::::>
+    tabledown:
+        ┬─┬﻿ ノ( ゜-゜ノ)
+    tableflip:
+        (ノ ゜Д゜)ノ ︵ ┻━┻
+    tears:
+        (ಥ﹏ಥ)
+    terrorist:
+        ୧༼ಠ益ಠ༽︻╦╤─
+    thanks thankyou ty:
+        \(^-^)/
+    this:
+        ( ͡° ͜ʖ ͡°)_/¯
+    tiefighter:
+        |=-(¤)-=|
+    toldyouso toldyou:
+        ☜(꒡⌓꒡)
+    toogood:
+        ᕦ(òᴥó)ᕥ
+    unflip:
+        ┬──┬ ノ(ò_óノ)
+    victory:
+        (๑•̀ㅂ•́)ง✧
+    wat:
+        (ÒДÓױ)
+    wave:
+        ( * ^ *) ノシ
+    whistle:
+        (っ^з^)♪♬
+    whoa:
+        (°o•)
+    why:
+        ლ(`◉◞౪◟◉‵ლ)
+    woo:
+        ＼(＾O＾)／
+    wtf:
+        (⊙＿⊙')
+    wut:
+        ⊙ω⊙
+    yeah yes:
+        (•̀ᴗ•́)و ̑̑
+    yolo:
+        Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ
+    youkids ukids:
+        ლ༼>╭ ͟ʖ╮<༽ლ
+    no yuno:
+        (屮ﾟДﾟ)屮 Y U NO
+    zen meditation omm:
+        ⊹╰(⌣ʟ⌣)╯⊹
+    zombie:
+        [¬º-°]¬
+    angel:
+        ☜(⌒▽⌒)☞
+    angry:
+        •`_´•
+    ass butt:
+        (‿|‿)
+    awkward:
+        •͡˘㇁•͡˘
+    bat:
+        /|\ ^._.^ /|\
+    bear koala:
+        ʕ·͡ᴥ·ʔ﻿
+    blush:
+        (˵ ͡° ͜ʖ ͡°˵)
+    bored:
+        (-_-)
+    bubbles:
+        ( ˘ ³˘)ノ°ﾟº❍｡
+    cat:
+        (= ФェФ=)
+    cheer:
+        ※\(^o^)/※
+    cool csi:
+        (•_•) ( •_•)>⌐■-■ (⌐■_■)
+    cry:
+        (╥﹏╥)
+    cute:
+        (｡◕‿‿◕｡)
+    dead:
+        x⸑x
+    depressed:
+        (︶︹︶)
+    dog:
+        (◕ᴥ◕ʋ)
+    evil:
+        ψ(｀∇´)ψ
+    excited:
+        (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧
+    facepalm:
+        (－‸ლ)
+    fight:
+        (ง •̀_•́)ง
+    fish:
+        <"(((<3
+    flower flor:
+        (✿◠‿◠)
+    glasses:
+        (⌐ ͡■ ͜ʖ ͡■)
+    happy:
+        ٩( ๑╹ ꇴ╹)۶
+    kiss:
+        (づ ￣ ³￣)づ
+    look:
+        (ಡ_ಡ)☞
+    loud noise:
+        ᕦ(⩾﹏⩽)ᕥ
+    no:
+        →_←
+    peace victory:
+        ✌(-‿-)✌
+    really:
+        ò_ô
+    rose:
+        ✿ڿڰۣ—
+    run:
+        (╯°□°)╯
+    sad:
+        ε(´סּ︵סּ`)з
+    shout:
+        ╚(•⌂•)╝
+    shy:
+        =^_^=
+    smiley:
+        ☺︎
+    squid:
+        <コ:彡
+    surprised:
+        (๑•́ ヮ •̀๑)
+    tired:
+        (=____=)
+    yay:
+        \( ﾟヮﾟ)/
+    zoidberg:
+        (V) (°,,,,°) (V)
 ```
 
 ---
