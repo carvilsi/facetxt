@@ -367,7 +367,6 @@ const customs = {
         dunno: [ '¯\\(°_o)/¯' ],
         eeriemob: [ '(-(-_-(-_(-_(-_-)_-)-_-)_-)_-)-)' ],
         endure: [ '(҂◡_◡) ᕤ' ],
-        envelope_letter: [ '✉︎' ],
         evillenny: [ '(͠≖ ͜ʖ͠≖)' ],
         execution: [ '(⌐■_■)︻╦╤─   (╥﹏╥)' ],
         facebook: [ '(╯°□°)╯︵ ʞooqǝɔɐɟ' ],
