@@ -117,6 +117,7 @@ const facetxt = {
 };
 
 // get the reduced object with faces for random and like functions
-reduceFacesObject(faces);
+const facesObj = structuredClone(faces);
+reduceFacesObject(facesObj);
 
 export default facetxt;
