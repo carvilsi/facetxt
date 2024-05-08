@@ -39,10 +39,22 @@ function collectFacesToArray(obj) {
     }
 }
 
+function cleanRepeatedFaces(obj) {
+    for (const property in obj) {
+        if (Object.hasOwn(reducedFaces, property)) {
+            reducedFaces[property] = reducedFaces[property]
+                .concat(obj[property]);
+            delete obj[property];
+        }
+    }
+    return obj;
+}
+
 function reduceFacesObject(obj) {
     for (const property in obj) {
         if (!Array.isArray(obj) && Array.isArray(obj[property])) {
-            reducedFaces = { ...reducedFaces, ...obj };
+            const cleanedObj = cleanRepeatedFaces(obj);
+            reducedFaces = { ...reducedFaces, ...cleanedObj };
             break;
         }
         if (typeof obj[property] === 'object') {

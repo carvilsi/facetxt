@@ -3,7 +3,7 @@
 import test from 'ava';
 import facetxt from '../src/index.js';
 
-const TOTAL_FACES = 754;
+const TOTAL_FACES = 718;
 const WHOLE_EMBARRASSED_FACES = [
     ':$', '://)',
     '://3', '(^^ゞ',
@@ -13,6 +13,11 @@ const WHOLE_EMBARRASSED_FACES = [
     '^^;', '^_^;',
     '(#^.^#)', '(^ ^;)',
     '(⁄⁄•⁄ω⁄•⁄⁄)'
+];
+const WHOLE_ZOIDBERG_FACES = [
+    '(V) (;, ;) (V)',
+    '(V)(°, °)(V)',
+    '(V) (°,,,,°) (V)'
 ];
 
 let arrayOfFaces = null;
@@ -69,6 +74,12 @@ test('should retrieve the array related with name', (t) => {
     const faces = facetxt.likes('embarrassed');
 
     t.like(faces, WHOLE_EMBARRASSED_FACES);
+});
+
+test('should retrieve the array related with zoidberg', (t) => {
+    const faces = facetxt.likes('zoidberg');
+
+    t.like(faces, WHOLE_ZOIDBERG_FACES);
 });
 
 test('should not retrieve the array related with name, because does not exists', (t) => {
