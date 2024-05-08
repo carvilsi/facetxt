@@ -39,6 +39,10 @@ function collectFacesToArray(obj) {
     }
 }
 
+// for the faces (property) from object (obj) that
+// exists at reducedFaces:
+// - removes from the object (obj)
+// - concatenates to the array on reducedFaces
 function cleanRepeatedFaces(obj) {
     for (const property in obj) {
         if (Object.hasOwn(reducedFaces, property)) {
