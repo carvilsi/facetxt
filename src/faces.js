@@ -324,7 +324,13 @@ const customs = {
         greedy: [ '$_$' ],
         confusion: [ '?_?' ],
         shyness: [ '6_6' ],
-        surprise_shock: [ '!_!' ]
+        surprise_shock: [ '!_!' ],
+        wink: [ '^_~', '~_^', '^_-', '-_^' ],
+        rustaceans_print_all: [ '{:?}' ],
+        rustaceans_pretty_print_all: [ '{:#?}' ],
+        rurouni_kenshin_himura: [ '((^_^x))' ],
+        cabbit: [ ' (_/=^_^=\\_)' ],
+        owl: [ '(^v^)', '(OvO)', '(0v0)', '(-v-)' ]
     },
     asciimoji: {
         acid: [ '⊂(◉‿◉)つ' ],
@@ -367,7 +373,6 @@ const customs = {
         dunno: [ '¯\\(°_o)/¯' ],
         eeriemob: [ '(-(-_-(-_(-_(-_-)_-)-_-)_-)_-)-)' ],
         endure: [ '(҂◡_◡) ᕤ' ],
-        envelope_letter: [ '✉︎' ],
         evillenny: [ '(͠≖ ͜ʖ͠≖)' ],
         execution: [ '(⌐■_■)︻╦╤─   (╥﹏╥)' ],
         facebook: [ '(╯°□°)╯︵ ʞooqǝɔɐɟ' ],

@@ -1,5 +1,10 @@
 # Changelog
 
+# [v1.4.1](https://github.com/carvilsi/facetxt/releases/tag/v1.4.1) (2024-05-09)
+
+- added moar faces
+- fixes repeated not showing on like and likes
+
 # [v1.4.0](https://github.com/carvilsi/facetxt/releases/tag/v1.4.0) (2024-04-29)
 
 - added 210 new faces :-)
