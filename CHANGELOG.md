@@ -1,5 +1,9 @@
 # Changelog
 
+# [v1.4.2](https://github.com/carvilsi/facetxt/releases/tag/v1.4.2) (2024-08-23)
+
+- - sec fix for braces CVE-2024-4068
+
 # [v1.4.1](https://github.com/carvilsi/facetxt/releases/tag/v1.4.1) (2024-05-09)
 
 - added moar faces
